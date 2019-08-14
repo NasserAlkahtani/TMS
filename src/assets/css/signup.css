@@ -1,0 +1,53 @@
+body {
+    background-color: #192230;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-card {
+    position: absolute;
+    width: 40%;
+    margin-top: 8%;
+    right: 30%;
+    left: 30%;
+    height: auto;
+    border-radius: 10px;
+    background-color: #24344d;
+    -webkit-box-shadow: 0px 0px 21px -7px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 21px -7px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 21px -7px rgba(0, 0, 0, 1);
+}
+
+.field-div {
+    position: relative;
+    width: 90%;
+    height: auto;
+    padding: 5%;
+}
+
+.field-div label {
+    position: relative;
+    width: 100%;
+    color: #60a0f4;
+    font-size: 30px;
+}
+
+.field-div input {
+    position: relative;
+    width: 96%;
+    height: 40px;
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 2px solid #192230;
+    outline: none;
+    transition: 0.2s;
+    color: white;
+    font-size: 15px;
+    font-family: 'Signika', sans-serif;
+    margin-top: 15px;
+    padding: 2%;
+}
+
+.field-div input:focus {
+    border-bottom: 2px solid white;
+    outline: none;
+}
