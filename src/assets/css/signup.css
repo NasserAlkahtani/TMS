@@ -1,5 +1,5 @@
 body {
-    background-color: #192230;
+    background-color: #131c27;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -11,24 +11,36 @@ body {
     left: 30%;
     height: auto;
     border-radius: 10px;
-    background-color: #24344d;
+    background-color: #19222f;
     -webkit-box-shadow: 0px 0px 21px -7px rgba(0, 0, 0, 1);
     -moz-box-shadow: 0px 0px 21px -7px rgba(0, 0, 0, 1);
     box-shadow: 0px 0px 21px -7px rgba(0, 0, 0, 1);
+    margin-bottom: 8%;
+}
+
+.main-card h1 {
+    width: 90%;
+    height: auto;
+    text-align: center;
+    margin: 5%;
+    color: white;
+    font-size: 50px;
 }
 
 .field-div {
     position: relative;
-    width: 90%;
+    width: 80%;
     height: auto;
     padding: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .field-div label {
     position: relative;
     width: 100%;
     color: #60a0f4;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .field-div input {
@@ -37,7 +49,7 @@ body {
     height: 40px;
     background-color: transparent;
     border: 0px;
-    border-bottom: 2px solid #192230;
+    border-bottom: 1px solid #60a0f4;
     outline: none;
     transition: 0.2s;
     color: white;
@@ -50,4 +62,22 @@ body {
 .field-div input:focus {
     border-bottom: 2px solid white;
     outline: none;
+}
+
+
+.signup-btn {
+    width: 80%;
+    height: 50px;
+    color: white;
+    background-color: #60a0f4;
+    margin: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 0px;
+    transition: 0.2s;
+    border-radius: 6px;
+}
+
+.signup-btn:hover {
+    background-color: rgb(61, 100, 151);
 }
