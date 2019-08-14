@@ -3,6 +3,8 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+
+
 .main-card {
     position: absolute;
     width: 40%;
@@ -18,13 +20,69 @@ body {
     margin-bottom: 8%;
 }
 
+.switch-div {
+    /* position: relative;
+    width: 96%;
+    height: auto;
+    margin: 2%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row; */
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.switch-div div {
+    /* width: 45%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    height: 75px;
+    padding-top: 20px;
+    transition: 0.3s; */
+    width: 50%;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    height: 75px;
+    padding-top: 20px;
+    transition: 0.3s;
+}
+
+.switch-div div:hover {
+    background-color: #45a789;
+    cursor: pointer;
+}
+
+.switch-left {
+    border-top-left-radius: 6px;
+    /* border-bottom-left-radius: 6px; */
+
+}
+
+.switch-right {
+    border-top-right-radius: 6px;
+    /* border-bottom-right-radius: 6px; */
+
+}
+
+.active {
+    background-color: #45a789 !important;
+}
+
 .main-card h1 {
     width: 90%;
     height: auto;
     text-align: center;
     margin: 5%;
     color: white;
-    font-size: 50px;
+    font-size: 35px;
 }
 
 .field-div {
@@ -39,7 +97,7 @@ body {
 .field-div label {
     position: relative;
     width: 100%;
-    color: #60a0f4;
+    color: #45a789;
     font-size: 20px;
 }
 
@@ -49,7 +107,7 @@ body {
     height: 40px;
     background-color: transparent;
     border: 0px;
-    border-bottom: 1px solid #60a0f4;
+    border-bottom: 1px solid #45a789;
     outline: none;
     transition: 0.2s;
     color: white;
@@ -65,11 +123,11 @@ body {
 }
 
 
-.signup-btn {
+.sign-btn {
     width: 80%;
     height: 50px;
     color: white;
-    background-color: #60a0f4;
+    background-color: #45a789;
     margin: 5%;
     margin-left: 10%;
     margin-right: 10%;
@@ -78,6 +136,11 @@ body {
     border-radius: 6px;
 }
 
-.signup-btn:hover {
-    background-color: rgb(61, 100, 151);
+.sign-btn:hover {
+    background-color: #337a65;
+}
+
+.sign-btn:focus {
+    outline: none;
+    background-color: #337a65;
 }
