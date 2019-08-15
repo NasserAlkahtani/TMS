@@ -18,11 +18,13 @@ $result = mysqli_query($conn,$sql);
 
 
 if (mysqli_num_rows($result) > 0) {
+    session_start();
     while($row = mysqli_fetch_assoc($result)) {
-       echo "hello";
+
+      $_SESSION['logedin'] = true; 
     }
- } else {
-    echo "0 results";
+ }else {
+    header('location:');
  }
  mysqli_close($conn);
 ?>

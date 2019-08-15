@@ -26,11 +26,11 @@
      <form id="signup-form" action="../module/sign/signup.php" method="post">
               <div class="field-div">
                    <label>E-Mail</label>
-                   <input placeholder="email"type="text" name="email" required >
+                   <input placeholder="email" type="email" name="email" required >
              </div>
              <div class="field-div">
                    <label>Name</label>
-                   <input placeholder="company name"type="text" name="name" required>
+                   <input placeholder="company name" type="text" name="name" required>
              </div>
              <div class="field-div">
                    <label>Password</label>

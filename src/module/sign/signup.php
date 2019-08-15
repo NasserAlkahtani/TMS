@@ -1,30 +1,41 @@
 <?php
 
-include '../database/database.php';
+require_once '../database/database.php';
 
 $email = $_POST['email'];
 $name = $_POST['name'];
 $password = $_POST['password'];
 $repassword = $_POST['repassword'];
 
-$sql = "SELECT * FROM 'companies' WHERE 'email'=".$email;
 
-if(mysqli_query($conn,$sql)){
-    session_start;
-    $_SESSION['msg-email'] = "email already exist!!"; 
-}else{
-    if($repassword == $password){
-        $sql = "INSERT INTO table_name ('name','email'.'password') VALUES ($name,$email,$password);";
-        session_start;
-        $_SESSION['msg-user'] = "user added"; 
-        header ('location: index.php');
-    }else{
-    session_start;
-    $_SESSION['msg-password'] = "the passwords do not match!!"; 
-    }
 
-    
+
+$sqlCheckEmail = "SELECT * FROM `companies` WHERE email = '".$email."' ";
+
+$resultCheckEmail = mysqli_query($conn,$sqlCheckEmail);
+
+
+if($password == $repassword){
+    header('location: ../../pages/sign.php?msg=1');
 }
+
+ 
+if(mysqli_num_rows($resultCheckEmail) > 0 ){
+    header('location: ../../pages/sign.php?msg=2');
+}else{
+      $sqlInsert = "INSERT INTO `companies` (`id`, `name`, `email`, `password`, `logo`) VALUES (NULL, '".$name."', '".$email."', '".$password."', NULL);";
+
+      $resInsert =  mysqli_query($conn,$sqlInsert);
+
+     if($resInsert){
+        header('location: ../../pages/sign.php?msg=3');
+
+     }else{
+        header('location: ../../pages/sign.php?msg=4');
+
+     }
+}
+
 
 
 
