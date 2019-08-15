@@ -23,24 +23,24 @@
 
 
 
-     <form id="signup-form" action="../module/sign/signup.php">
+     <form id="signup-form" action="../module/sign/signup.php" method="post">
               <div class="field-div">
                    <label>E-Mail</label>
-                   <input placeholder="email"type="text" required >
+                   <input placeholder="email"type="text" name="email" required >
              </div>
              <div class="field-div">
                    <label>Name</label>
-                   <input placeholder="company name"type="text" required>
+                   <input placeholder="company name"type="text" name="name" required>
              </div>
              <div class="field-div">
                    <label>Password</label>
-                   <input placeholder="Password" type="password" required>
+                   <input placeholder="Password" type="password" name="password" required>
              </div>
              <div class="field-div">
                    <label>Re enter password</label>
-                   <input placeholder="Re enter password" type="password" required>
+                   <input placeholder="Re enter password" type="password" name="repassword" required>
              </div>
-             <button type="button" class="sign-btn">Sign up</button>
+             <button type="submit" class="sign-btn">Sign up</button>
      </form>
     
 

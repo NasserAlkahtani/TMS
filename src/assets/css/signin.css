@@ -1,0 +1,153 @@
+body {
+    background-color: #192230;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-card h1 {
+    width: 90%;
+    height: auto;
+    text-align: center;
+    margin: 5%;
+    color: white;
+    font-size: 50px;
+}
+
+.main-card {
+    position: absolute;
+    width: 40%;
+    margin-top: 8%;
+    right: 30%;
+    left: 30%;
+    height: auto;
+    border-radius: 10px;
+    background-color: #24344d;
+    -webkit-box-shadow: 0px 0px 21px -7px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 21px -7px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 21px -7px rgba(0, 0, 0, 1);
+}
+
+.field-div {
+    position: relative;
+    width: 90%;
+    height: auto;
+    padding: 5%;
+}
+
+.field-div label {
+    position: relative;
+    width: 100%;
+    color: #60a0f4;
+    font-size: 30px;
+}
+
+.field-div input {
+    position: relative;
+    width: 96%;
+    height: 40px;
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 2px solid #192230;
+    outline: none;
+    transition: 0.2s;
+    color: white;
+    font-size: 15px;
+    font-family: 'Signika', sans-serif;
+    margin-top: 15px;
+    padding: 2%;
+}
+
+.field-div input:focus {
+    border-bottom: 2px solid white;
+    outline: none;
+}
+
+.btn-info {
+    background-color: #60a0f4;
+    border-color: #60a0f4;
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    color: white;
+}
+
+body {
+    background-color: #131c27;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-card {
+    position: absolute;
+    width: 40%;
+    margin-top: 8%;
+    right: 30%;
+    left: 30%;
+    height: auto;
+    border-radius: 10px;
+    background-color: #19222f;
+    -webkit-box-shadow: 0px 0px 21px -7px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 21px -7px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 21px -7px rgba(0, 0, 0, 1);
+    margin-bottom: 8%;
+}
+
+.field-div {
+    position: relative;
+    width: 80%;
+    height: auto;
+    padding: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.field-div label {
+    position: relative;
+    width: 100%;
+    color: #60a0f4;
+    font-size: 20px;
+}
+
+.field-div input {
+    position: relative;
+    width: 96%;
+    height: 40px;
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px solid #60a0f4;
+    outline: none;
+    transition: 0.2s;
+    color: white;
+    font-size: 15px;
+    font-family: 'Signika', sans-serif;
+    margin-top: 15px;
+    padding: 2%;
+}
+
+.field-div input:focus {
+    border-bottom: 2px solid white;
+    outline: none;
+}
+
+
+.signup-btn {
+    width: 80%;
+    height: 50px;
+    color: white;
+    background-color: #60a0f4;
+    margin: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 0px;
+    transition: 0.2s;
+    border-radius: 6px;
+}
+
+.signup-btn:hover {
+    background-color: rgb(61, 100, 151);
+}
+
+.btn-info:hover {
+    background-color: #4473b1;
+    border-color: #4473b1;
+    transition: 0.3s;
+}
