@@ -11,6 +11,17 @@
   </head>
   <body>
 
+<?php
+
+  session_start();
+
+  if(isset($_SESSION['msg']) && isset($_SESSION['msg-type']) ){
+
+
+
+  }
+
+?>
 
 
     <div class="main-card">
