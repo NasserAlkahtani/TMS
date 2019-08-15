@@ -45,18 +45,18 @@
     
 
 
-     <form id="signin-form" action="../module/sign/signin.php">
+     <form id="signin-form" action="../module/sign/signin.php" method="post">
               <div class="field-div">
                    <label>E-Mail</label>
-                   <input placeholder="email"type="text" required>
+                   <input name="email" placeholder="email"type="text" required>
              </div>
     
              <div class="field-div">
                    <label>Password</label>
-                   <input placeholder="Password" type="password" required>
+                   <input name="password" placeholder="Password" type="password" required>
              </div>
         
-             <button type="button" class="sign-btn">Sign in</button>
+             <button type="submit" class="sign-btn">Sign in</button>
      </form>
 
 
