@@ -23,7 +23,7 @@
 
 
 
-     <form id="signup-form" action="">
+     <form id="signup-form" action="../module/sign/signup.php">
               <div class="field-div">
                    <label>E-Mail</label>
                    <input placeholder="email"type="text" required >
@@ -45,7 +45,7 @@
     
 
 
-     <form id="signin-form" action="">
+     <form id="signin-form" action="../module/sign/signin.php">
               <div class="field-div">
                    <label>E-Mail</label>
                    <input placeholder="email"type="text" required>

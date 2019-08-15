@@ -74,16 +74,9 @@ body {
 
 .active {
     background-color: #45a789 !important;
+
 }
 
-.main-card h1 {
-    width: 90%;
-    height: auto;
-    text-align: center;
-    margin: 5%;
-    color: white;
-    font-size: 35px;
-}
 
 .field-div {
     position: relative;
