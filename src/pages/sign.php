@@ -27,7 +27,6 @@
 
 
 
-
   }
 
 ?>
@@ -52,16 +51,13 @@
                    <label>Name</label>
                    <input placeholder="company name" type="text" name="name" required>
              </div>
-             
-             <div class="field-div-row">
-                   <div class="field-div-row-div">
+             <div class="field-div">
                    <label>Password</label>
                    <input placeholder="Password" type="password" name="password" required>
-                   </div>
-                   <div class="field-div-row-div">
-                   <label>Conform password</label>
+             </div>
+             <div class="field-div">
+                   <label>Re enter password</label>
                    <input placeholder="Re enter password" type="password" name="repassword" required>
-                   </div>
              </div>
              <button type="submit" class="sign-btn">Sign up</button>
      </form>
