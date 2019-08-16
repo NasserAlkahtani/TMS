@@ -16,6 +16,15 @@
   session_start();
 
   if(isset($_SESSION['msg']) && isset($_SESSION['msg-type']) ){
+    if($_SESSION['msg-type'] == 'danger'){
+      echo '<h1>'.$_SESSION['msg'].'</h1>';
+     }else if($_SESSION['msg-type'] == 'normal'){
+      echo '<h1>'.$_SESSION['msg'].'</h1>';
+     }
+    unset($_SESSION['msg']);
+    unset($_SESSION['msg-type']);
+
+
 
 
 

@@ -26,7 +26,7 @@ if (mysqli_num_rows($result) == 1) {
     header('location: ../../pages/index.php');
 }else if(mysqli_num_rows($result) > 1){
     $_SESSION['msg'] = "something went worng please try again later";
-    $_SESSION['msg-type'] = "danger";
+    $_SESSION['msg-type'] = "normal";
     header('location: ../../pages/sign.php');
 }else{
    $_SESSION['msg'] = "Email or password is worng";
