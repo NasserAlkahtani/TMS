@@ -16,17 +16,33 @@
   session_start();
 
   if(isset($_SESSION['msg']) && isset($_SESSION['msg-type']) ){
-
-
+    if($_SESSION['msg-type'] == 'danger'){
+      echo 
+      
+      '<div id="notification" class="notification notification-danger">
+      <label class="notification-label">'.$_SESSION['msg'].'</label>
+      <img id="notification-x"src="../assets/img/x-icon.png" class="notification-x">
+     </div>'
+     
+     ;
+     }else if($_SESSION['msg-type'] == 'normal'){
+      echo 
+      
+      '<div id="notification" class="notification notification-normal">
+      <label class="notification-label">'.$_SESSION['msg'].'</label>
+      <img id="notification-x"src="../assets/img/x-icon.png" class="notification-x">
+     </div>'
+     
+     ;
+     }
+    unset($_SESSION['msg']);
+    unset($_SESSION['msg-type']);
   }
 
 ?>
 
 
-    <div id="notification" class="notification notification-normal">
-        <label class="notification-label">Worng email or password !</label>
-        <img id="notification-x"src="../assets/img/x-icon.png" class="notification-x">
-    </div>
+ 
 
 
     <div class="main-card">

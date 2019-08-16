@@ -9,16 +9,16 @@ $repassword = $_POST['repassword'];
 
 // $sqlInsert = "INSERT INTO `companies` (`id`, `name`, `email`, `password`, `logo`) VALUES (NULL, '".$name."', '".$email."', '".$password."', NULL);";
 
+session_start();
 
 
 $sqlCheckEmail = "SELECT * FROM `companies` WHERE email = '".$email."' ";
 
 $resultCheckEmail = mysqli_query($conn,$sqlCheckEmail);
 
-session_start();
 
 if(mysqli_num_rows($resultCheckEmail) > 0){
-   $_SESSION['msg']  = "Email already exist!!";
+   $_SESSION['msg']  = "Email already exist !";
    $_SESSION['msg-type'] = "danger";
    header('location: ../../pages/sign.php');
 }
@@ -27,7 +27,7 @@ if(mysqli_num_rows($resultCheckEmail) > 0){
 
 
   if($repassword != $password){
-    $_SESSION['msg'] =  "the passwords do not match!!";
+    $_SESSION['msg'] =  "Passwords do not match !";
     $_SESSION['msg-type'] = "danger";
     header('location: ../../pages/sign.php');
  } 
@@ -38,12 +38,31 @@ if(mysqli_num_rows($resultCheckEmail) > 0){
 
     if(!$result){
         $_SESSION['msg'] =  "Something went worng try again later";
-        $_SESSION['msg-type'] = "danger";
+        $_SESSION['msg-type'] = "danger";        
         header('location: ../../pages/sign.php');
     }
 
+
+
+    $sqlGetId = "SELECT * FROM `companies` WHERE email = '".$email."' ";
+
+
+    $resGetId = mysqli_query($conn,$sqlGetId);
+
+
+    if(mysqli_num_rows($resGetId) == 1){
+        
+            $_SESSION['logedin'] = "true"; 
+
+        while($row = mysqli_fetch_assoc($resGetId)) {
+            $_SESSION['cid'] = $row['id'];
+        }
+
+
+       header('location: ../../pages/index.php');
+    }
       
-    header('location: ../../pages/sign.php');
+    header('location: ../../pages/index.php');
 
 
 

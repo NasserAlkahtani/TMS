@@ -8,6 +8,17 @@
 </head>
 <body>
     
-<h1>Hello</h1>
+<?php
+
+session_start();
+
+if( !($_SESSION['logedin'] == "true" && isset($_SESSION['cid']))){
+    header('location: sign.php');
+}
+?>
+
+<h1>1111</h1>
+
+
 </body>
 </html>
