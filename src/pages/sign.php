@@ -50,7 +50,7 @@
                    <input placeholder="Password" type="password" name="password" required>
                    </div>
                    <div class="field-div-row-div">
-                   <label>conform password</label>
+                   <label>Conform password</label>
                    <input placeholder="Re enter password" type="password" name="repassword" required>
                    </div>
              </div>

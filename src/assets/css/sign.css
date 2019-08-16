@@ -113,7 +113,7 @@ body {
 }
 
 .field-div input:focus {
-    border-bottom: 2px solid white;
+    border-bottom: 1px solid white;
     outline: none;
 }
 
