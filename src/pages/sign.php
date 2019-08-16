@@ -43,13 +43,16 @@
                    <label>Name</label>
                    <input placeholder="company name" type="text" name="name" required>
              </div>
-             <div class="field-div">
+             
+             <div class="field-div-row">
+                   <div class="field-div-row-div">
                    <label>Password</label>
                    <input placeholder="Password" type="password" name="password" required>
-             </div>
-             <div class="field-div">
-                   <label>Re enter password</label>
+                   </div>
+                   <div class="field-div-row-div">
+                   <label>conform password</label>
                    <input placeholder="Re enter password" type="password" name="repassword" required>
+                   </div>
              </div>
              <button type="submit" class="sign-btn">Sign up</button>
      </form>

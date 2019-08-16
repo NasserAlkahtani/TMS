@@ -87,6 +87,8 @@ body {
     padding-right: 10%;
 }
 
+
+
 .field-div label {
     position: relative;
     width: 100%;
@@ -114,6 +116,58 @@ body {
     border-bottom: 2px solid white;
     outline: none;
 }
+
+.field-div-row {
+    position: relative;
+    width: 80%;
+    height: auto;
+    padding: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+.field-div-row-div {
+    position: relative;
+    width: 80%;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+.field-div-row-div label {
+    position: relative;
+    width: 100%;
+    color: #45a789;
+    font-size: 20px;
+}
+
+.field-div-row-div input {
+    position: relative;
+    width: 96%;
+    height: 40px;
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px solid #45a789;
+    outline: none;
+    transition: 0.2s;
+    color: white;
+    font-size: 15px;
+    font-family: 'Signika', sans-serif;
+    margin-top: 15px;
+    padding: 2%;
+}
+
+.field-div-row-div input:focus {
+    border-bottom: 2px solid white;
+    outline: none;
+}
+
+
+
 
 
 .sign-btn {
