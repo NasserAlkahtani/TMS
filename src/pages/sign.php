@@ -23,6 +23,12 @@
 ?>
 
 
+    <div id="notification" class="notification notification-normal">
+        <label class="notification-label">Worng email or password !</label>
+        <img id="notification-x"src="../assets/img/x-icon.png" class="notification-x">
+    </div>
+
+
     <div class="main-card">
 
 
@@ -71,7 +77,7 @@
 
 
     </div>
-
+    <script src="../assets/js/notification.js"></script>
     <script src="../assets/js/sign.js"></script>
   </body>
 </html>
