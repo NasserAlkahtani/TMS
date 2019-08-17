@@ -17,10 +17,13 @@ $sqlCheckEmail = "SELECT * FROM `companies` WHERE email = '".$email."' ";
 $resultCheckEmail = mysqli_query($conn,$sqlCheckEmail);
 
 
+
+
 if(mysqli_num_rows($resultCheckEmail) > 0){
    $_SESSION['msg']  = "Email already exist !";
    $_SESSION['msg-type'] = "danger";
    header('location: ../../pages/sign.php');
+   exit(); 
 }
 
 
@@ -30,7 +33,8 @@ if(mysqli_num_rows($resultCheckEmail) > 0){
     $_SESSION['msg'] =  "Passwords do not match !";
     $_SESSION['msg-type'] = "danger";
     header('location: ../../pages/sign.php');
- } 
+    exit(); 
+  } 
 
 
     $sql = "INSERT INTO `companies` (`id`, `name`, `email`, `password`, `logo`) VALUES (NULL, '".$name."', '".$email."', '".$password."', NULL);";
@@ -40,6 +44,7 @@ if(mysqli_num_rows($resultCheckEmail) > 0){
         $_SESSION['msg'] =  "Something went worng try again later";
         $_SESSION['msg-type'] = "danger";        
         header('location: ../../pages/sign.php');
+        exit(); 
     }
 
 
@@ -60,10 +65,12 @@ if(mysqli_num_rows($resultCheckEmail) > 0){
 
 
        header('location: ../../pages/index.php');
+       exit(); 
+
     }
       
     header('location: ../../pages/index.php');
-
+    exit(); 
 
 
 

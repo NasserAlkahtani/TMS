@@ -22,9 +22,7 @@
       '<div id="notification" class="notification notification-danger">
       <label class="notification-label">'.$_SESSION['msg'].'</label>
       <img id="notification-x"src="../assets/img/x-icon.png" class="notification-x">
-     </div>'
-     
-     ;
+     </div>';
      }else if($_SESSION['msg-type'] == 'normal'){
       echo 
       
@@ -64,13 +62,17 @@
                    <label>Name</label>
                    <input placeholder="company name" type="text" name="name" required>
              </div>
-             <div class="field-div">
+             <div class="field-div-row">
+             <div class="field-div-row-div">
                    <label>Password</label>
                    <input placeholder="Password" type="password" name="password" required>
              </div>
-             <div class="field-div">
-                   <label>Re enter password</label>
-                   <input placeholder="Re enter password" type="password" name="repassword" required>
+             <div class="field-div-row-div">
+                   <label>Conform password</label>
+                   <input placeholder="Password" type="password" name="password" required>
+             </div>
+      
+       
              </div>
              <button type="submit" class="sign-btn">Sign up</button>
      </form>

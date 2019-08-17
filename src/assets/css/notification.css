@@ -15,12 +15,12 @@
 }
 
 .notification-danger {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     background-color: rgb(189, 42, 49);
 }
 
 .notification-normal {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 254, 254);
     background-color: #45a789;
 }
 
