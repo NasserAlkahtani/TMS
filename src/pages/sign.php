@@ -21,14 +21,14 @@
       
       '<div id="notification" class="notification notification-danger">
       <label class="notification-label">'.$_SESSION['msg'].'</label>
-      <img id="notification-x"src="../assets/img/x-icon.png" class="notification-x">
+      <div id="notification-x" class="notification-x"><img src="../assets/img/x-icon.png"></div>
      </div>';
      }else if($_SESSION['msg-type'] == 'normal'){
       echo 
-      
+
       '<div id="notification" class="notification notification-normal">
       <label class="notification-label">'.$_SESSION['msg'].'</label>
-      <img id="notification-x"src="../assets/img/x-icon.png" class="notification-x">
+      <div id="notification-x" class="notification-x"><img src="../assets/img/x-icon.png"></div>
      </div>'
      
      ;
@@ -41,8 +41,7 @@
 
 
  
-
-
+ 
     <div class="main-card">
 
 

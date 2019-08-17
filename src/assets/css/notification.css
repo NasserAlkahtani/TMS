@@ -7,7 +7,7 @@
     text-align: center;
     display: inline-block;
     align-content: space-around;
-    border-radius: 6px;
+    border-radius: 8px;
     -webkit-box-shadow: 0px 0px 21px -7px rgba(0, 0, 0, 1);
     -moz-box-shadow: 0px 0px 21px -7px rgba(0, 0, 0, 1);
     box-shadow: 0px 0px 21px -7px rgba(0, 0, 0, 1);
@@ -40,13 +40,34 @@
 
 .notification-x {
     position: relative;
-    width: 25px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    width: 30px;
+    height: 30px;
+    margin: 12.5px;
+    margin-left: 0px;
+    float: right;
     cursor: pointer;
-    margin-right: 10px;
+    margin-right: 5px;
+    transition: 0.4s;
+    border-radius: 50%;
+    /* background-color: aqua; */
 }
 
+.notification-x:hover {
+    background-color: rgba(0, 0, 0, 0.561);
+}
+
+.notification-x img {
+    position: relative;
+    width: 45%;
+    margin: 27.5%;
+}
+
+/* .notification-x:hover {
+    background-color: #42424283;
+    border-radius: 50%;
+    transition: 0.3s;
+
+} */
 
 .notification-hide {
     transition: 0.3s;
