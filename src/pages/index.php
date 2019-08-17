@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Dashboard</title>
-    <link href="../assets/css/notification.css" rel="stylesheet">
+    <link href="../assets/css/index.css" rel="stylesheet">
     <?php
            include('links.php'); 
      ?>
@@ -25,15 +25,9 @@ if(!($_SESSION['logedin'] == "true" && isset($_SESSION['cid']))){
 
 <?php
 
+include('./shared/sidebar.php');
 
-echo $_SESSION['logedin'];
-
-echo $_SESSION['cid'];
 ?>
-<h1>1111</h1>
-
-
-<a href="../module/sign/signout.php">Sign out</a>
 
 </body>
 </html>

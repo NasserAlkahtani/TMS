@@ -81,7 +81,7 @@
      <form id="signin-form" action="../module/sign/signin.php" method="post">
               <div class="field-div">
                    <label>E-Mail</label>
-                   <input name="email" placeholder="email"type="text" required>
+                   <input name="email" placeholder="email" type="text" required>
              </div>
     
              <div class="field-div">
