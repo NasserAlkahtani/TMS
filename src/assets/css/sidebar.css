@@ -1,0 +1,12 @@
+.main-sidebar {
+    background-color: #192230;
+    width: 240px;
+    height: 100%;
+    left: 0px;
+    margin: 0px;
+    -webkit-box-shadow: 0px 0px 21px -7px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 21px -7px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 21px -7px rgba(0, 0, 0, 1);
+
+
+}
