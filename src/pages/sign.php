@@ -68,7 +68,7 @@
              </div>
              <div class="field-div-row-div">
                    <label>Conform password</label>
-                   <input placeholder="Password" type="password" name="password" required>
+                   <input placeholder="Password" type="password" name="repassword" required>
              </div>
       
        

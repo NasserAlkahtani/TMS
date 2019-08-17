@@ -1,12 +1,16 @@
 $(document).ready(function () {
 
-    $("#notification-x").click(function () {
+
+
+    function removeNotification() {
         $("#notification").addClass("notification-hide");
         setTimeout(function () {
             $("#notification").remove();
         }, 400);
+    }
 
-
+    $("#notification-x").click(function () {
+        removeNotification();
     });
 
 });

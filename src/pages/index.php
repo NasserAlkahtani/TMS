@@ -12,13 +12,24 @@
 
 session_start();
 
-if( !($_SESSION['logedin'] == "true" && isset($_SESSION['cid']))){
+if(!($_SESSION['logedin'] == "true" && isset($_SESSION['cid']))){
     header('location: sign.php');
+
 }
 ?>
 
+
+<?php
+
+
+echo $_SESSION['logedin'];
+
+echo $_SESSION['cid'];
+?>
 <h1>1111</h1>
 
+
+<a href="../module/sign/signout.php">Sign out</a>
 
 </body>
 </html>
