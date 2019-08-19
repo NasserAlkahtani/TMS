@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Dashboard</title>
     <link href="../assets/css/index.css" rel="stylesheet">
+
     <?php
            include('links.php'); 
      ?>
@@ -28,6 +29,9 @@ if(!($_SESSION['logedin'] == "true" && isset($_SESSION['cid']))){
 include('./shared/sidebar.php');
 
 ?>
+
+
+
 
 </body>
 </html>

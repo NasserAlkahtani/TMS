@@ -5,6 +5,9 @@
     <!-- CSS -->
     <link href="../assets/css/notification.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/sidebar.css">
+    <link href="../assets/fontawesome/css/all.css" rel="stylesheet"> 
+    <link href="../assets/fontawesome/css/all.css" rel="stylesheet"> <!--load all styles -->
+    <!--load all styles -->
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <!-- Optional JavaScript -->
