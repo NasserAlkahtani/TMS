@@ -4,9 +4,74 @@
     height: 100%;
     left: 0px;
     margin: 0px;
+    padding: 0px;
     -webkit-box-shadow: 0px 0px 21px -7px rgba(0, 0, 0, 1);
     -moz-box-shadow: 0px 0px 21px -7px rgba(0, 0, 0, 1);
     box-shadow: 0px 0px 21px -7px rgba(0, 0, 0, 1);
+    position: absolute;
+
+}
+
+.line {
+    background-color: #45a789;
+    border-color: #45a789;
+    width: 90%;
+    height: 2px;
+    margin: 0px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0px;
+    margin-top: 5px;
+    position: relative;
+}
+
+.company-name-logo {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+
+}
+
+.company-logo {
+    position: relative;
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+    border: 3px solid #45a789;
+    margin: 5px;
+    margin-top: 15px;
+}
+
+.company-info {
+    position: relative;
+    width: auto;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 15px;
 
 
+}
+
+.company-name {
+    position: relative;
+    width: auto;
+    height: auto;
+    color: #45a789;
+    text-align: left;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.company-date {
+    position: relative;
+    width: auto;
+    height: auto;
+    color: #31423d;
+    text-align: center;
+    font-size: 15px;
+    margin: 5px;
+    margin-top: 8px;
 }
