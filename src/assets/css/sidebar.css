@@ -50,8 +50,6 @@
     height: auto;
     margin-left: 0px;
     margin-top: 15px;
-
-
 }
 
 .company-name {
@@ -69,7 +67,12 @@
     width: auto;
     height: auto;
     color: #31423d;
+<<<<<<< HEAD
     font-size: 15px;
+=======
+    text-align: center;
+    font-size: 14px;
+>>>>>>> 2a5b76bb972661b192aced6f8f5123adb10699f5
     margin: 5px;
     margin-top: 8px;
 }
