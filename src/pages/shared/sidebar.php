@@ -5,7 +5,7 @@
 <?php
    include("../module/database/database.php"); 
 
-   $sql = 'SELECT `logo` FROM `companies` WHERE id="12"';
+   $sql = 'SELECT `logo` FROM `companies` WHERE id='.$_SESSION['cid'];
    $res = mysqli_query($conn,$sql);
 
    while($row = mysqli_fetch_assoc($res)){
