@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Dashboard</title>
+    <title>Projects</title>
     <link href="../assets/css/index.css" rel="stylesheet">
 
 
@@ -34,12 +34,10 @@ include('./shared/sidebar.php');
 
 
 
-
-
+</body>
 <script>
 $(document).ready(function() {
-    $('#dashboard-menu-item').addClass('active')
+    $('#projects-menu-item').addClass('active')
 });
 </script>
-</body>
 </html>
