@@ -2,6 +2,7 @@
     
 
 <div class="company-name-logo">
+   <a href="account.php">
 <?php
    include("../module/database/database.php"); 
 
@@ -28,7 +29,7 @@
 
 
 ?>
-
+</a>
  <div class="company-info">
     <div class="company-name"><?php echo $row['name']; ?></div>
     <div class="company-date"><?php echo  date('d-m-Y', strtotime($row['created_at'])); ?></div>
