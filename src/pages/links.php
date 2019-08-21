@@ -3,6 +3,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- CSS -->
+    <link rel="stylesheet" href="../assets/css/user.css">
     <link href="../assets/css/notification.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/sidebar.css">
     <link href="../assets/fontawesome/css/all.css" rel="stylesheet"> 
