@@ -5,6 +5,9 @@
 <?php
    include("../module/database/database.php"); 
 
+
+
+   
    $sql = 'SELECT * FROM `companies` WHERE id="'.$_SESSION['cid'].'"';
    $res = mysqli_query($conn,$sql);
  
