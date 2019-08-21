@@ -5,14 +5,9 @@
    <a href="account.php">
 <?php
    include("../module/database/database.php"); 
-
-
-
-   
-   $sql = 'SELECT * FROM `companies` WHERE id="'.$_SESSION['cid'].'"';
+   $sql = 'SELECT * FROM `companies` WHERE id='.$_SESSION['cid'];
    $res = mysqli_query($conn,$sql);
  
-
    if($res){
       if(mysqli_num_rows($res) > 0 ){
          $row = mysqli_fetch_assoc($res);
@@ -29,8 +24,6 @@
    }else{
       echo '<img class="company-logo" src="../../assets/img/user-placeholder.png">';
    }
-
-
 ?>
 </a>
  <div class="company-info">
@@ -47,37 +40,32 @@
 <div class="sidebar-menu-div">
 <ul>
 
-<li>
-   
-</li>
-   <li id="menu-element">
+   <a href="index.php"><li id="dashboard-menu-item">
     <i class="fas fa-chart-line icon"></i>
     <label>Dashnoard</lablel>
-   </li>
+   </li></a>
 
-   <li id="menu-element">
+   <a href="projects.php"><li id="projects-menu-item">
    <i class="fas fa-clipboard-list icon"></i>
    <label>Projects</lablel>
-   </li>
+   </li></a>
 
-   <li id="menu-element">
-   <i class="fas fa-user-friends icon"></i>
+   <a href="employees.php"><li id="employees-menu-item">
+   <i  class="fas fa-user-friends icon"></i>
     <label>Employees</lablel>
-   </li>
+    </li></a>
 
-   <li id="menu-element" class="active">
-    <i class="fas fa-address-card icon"></i>
+    <a href="account.php"><li id="account-menu-item">
+    <i  class="fas fa-address-card icon"></i>
     <label>Account</lablel>
-   </li>
+    </li></a>
 
-   <li id="menu-element" >
-    <i class="fas fa-cog icon"></i>
+    <a href="settings.php"><li id="settings-menu-item">
+    <i  class="fas fa-cog icon"></i>
     <label>Settings</lablel>
-   </li>
+    </li></a>
 </ul>
 </div>
-
-<h1>Beef</h1>
 
 
 </div>
