@@ -5,11 +5,7 @@
 <?php
    include("../module/database/database.php"); 
 
-<<<<<<< HEAD
    $sql = 'SELECT * FROM `companies` WHERE id="'.$_SESSION['cid'].'"';
-=======
-   $sql = 'SELECT `logo` FROM `companies` WHERE id='.$_SESSION['cid'];
->>>>>>> 2a5b76bb972661b192aced6f8f5123adb10699f5
    $res = mysqli_query($conn,$sql);
  
 
