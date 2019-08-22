@@ -13,27 +13,24 @@
      ?>
 </head>
 <body>
-    
 <?php
-
 session_start();
-
 if(!($_SESSION['logedin'] == "true" && isset($_SESSION['cid']))){
     header('location: sign.php');
-
 }
 ?>
-
-
 <?php
-
+include('./shared/navbar.php');
 include('./shared/sidebar.php');
-
 ?>
+<div class="body">
 
 
 
 
+
+
+</div>
 </body>
 <script>
 $(document).ready(function() {

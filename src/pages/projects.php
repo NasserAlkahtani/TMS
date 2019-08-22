@@ -26,6 +26,7 @@ if(!($_SESSION['logedin'] == "true" && isset($_SESSION['cid']))){
 
 
 <?php
+include('./shared/navbar.php');
 
 include('./shared/sidebar.php');
 

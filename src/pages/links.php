@@ -6,7 +6,9 @@
     <link rel="stylesheet" href="../assets/css/user.css">
     <link href="../assets/css/notification.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/sidebar.css">
+    <link rel="stylesheet" href="../assets/css/navbar.css">
     <link href="../assets/fontawesome/css/all.css" rel="stylesheet"> 
+    <link href="../assets/css/all.css" rel="stylesheet"> 
     <link href="../../assets/css/user.css" rel="stylesheet"> 
     <!--load all styles -->
     <!--load all styles -->
