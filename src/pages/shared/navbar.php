@@ -1,3 +1,5 @@
+<div id="off-icon-dropdown-div-cover"></div>
+
 <div class="navbar-main-div">
 
 
@@ -9,6 +11,8 @@
          </div>         
      </div>
 </form>
+<div id="off-icon-dropdown-div-cover"></div>
+
 
 
      <a id="dropdown-button"><i class="fas fa-power-off off-icon"></i></a>

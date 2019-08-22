@@ -13,7 +13,6 @@
   
 </head>
 <body>
-<div id="off-icon-dropdown-div-cover"></div>
 <?php
 
 session_start();
@@ -36,10 +35,32 @@ include('./shared/sidebar.php');
      <div class="body">
 
    
-     <div id="notification" class="notification notification-danger">
-      <label class="notification-label">iguyggjg</label>
+     <?php
+
+
+  if(isset($_SESSION['msg']) && isset($_SESSION['msg-type']) ){
+    if($_SESSION['msg-type'] == 'danger'){
+      echo 
+      
+      '<div id="notification" class="notification notification-danger">
+      <label class="notification-label">'.$_SESSION['msg'].'</label>
       <div id="notification-x" class="notification-x"><img src="../assets/img/x-icon.png"></div>
-     </div>
+     </div>';
+     }else if($_SESSION['msg-type'] == 'normal'){
+      echo 
+
+      '<div id="notification" class="notification notification-normal">
+      <label class="notification-label">'.$_SESSION['msg'].'</label>
+      <div id="notification-x" class="notification-x"><img src="../assets/img/x-icon.png"></div>
+     </div>'
+     
+     ;
+     }
+    unset($_SESSION['msg']);
+    unset($_SESSION['msg-type']);
+  }
+
+?>
 
      </div>
 

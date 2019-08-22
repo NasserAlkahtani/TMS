@@ -17,6 +17,7 @@
     margin-right: 20px;
     transition: 0.3s;
     cursor: pointer;
+    z-index: 501;
 }
 
 .off-icon:hover {
@@ -96,11 +97,12 @@
 }
 
 .off-icon-dropdown-div-cover {
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.335);
     position: absolute;
     width: 100%;
     height: 100%;
     z-index: 499;
+    transition: 0.3s;
 }
 
 
