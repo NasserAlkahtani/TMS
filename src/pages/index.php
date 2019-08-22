@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Dashboard</title>
     <link href="../assets/css/index.css" rel="stylesheet">
-
-
     <?php
            include('links.php'); 
-     ?>
+    ?>
+
+  
 </head>
 <body>
 <div id="off-icon-dropdown-div-cover"></div>
@@ -33,7 +33,15 @@ include('./shared/sidebar.php');
 ?>
 
 
+     <div class="body">
 
+   
+     <div id="notification" class="notification notification-danger">
+      <label class="notification-label">iguyggjg</label>
+      <div id="notification-x" class="notification-x"><img src="../assets/img/x-icon.png"></div>
+     </div>
+
+     </div>
 
 
 
