@@ -13,7 +13,7 @@
      ?>
 </head>
 <body>
-    
+<div id="off-icon-dropdown-div-cover"></div>
 <?php
 
 session_start();
