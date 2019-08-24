@@ -11,6 +11,7 @@
     ?>
 
   
+  
 </head>
 <body>
 <?php
@@ -61,6 +62,33 @@ include('./shared/sidebar.php');
   }
 
 ?>
+     
+     <div class="card-out">
+       <div class="card-in">
+         Beef
+       </div>
+       <table>
+                    <thead>
+                      <th>ID</th>
+                      <th>Name</th>
+                      <th>@email</th>
+                      <th>password</th>
+                      <th>delete</th>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Beef</td>
+                        <td>Beef</td>
+                        <td>Beef</td>
+                        <td>Beef</td>
+                        <td>Beef</td>
+
+                      </tr>
+
+                    </tbody>
+                  </table>
+     </div>
+
 
      </div>
 
