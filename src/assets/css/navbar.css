@@ -10,6 +10,7 @@
 }
 
 .off-icon {
+    position: relative;
     float: right;
     color: #45a789;
     font-size: 25px;
@@ -17,11 +18,13 @@
     margin-right: 20px;
     transition: 0.3s;
     cursor: pointer;
-    z-index: 501;
+    z-index: 500;
 }
 
 .off-icon:hover {
     color: #204137;
+    z-index: 500;
+
 }
 
 .off-icon-dropdown-div {
@@ -99,7 +102,7 @@
 }
 
 .off-icon-dropdown-div-cover {
-    background-color: rgba(0, 0, 0, 0.335);
+    background-color: rgba(0, 0, 0, 0.233);
     position: absolute;
     width: 100%;
     height: 100%;

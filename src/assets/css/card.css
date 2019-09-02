@@ -1,0 +1,88 @@
+.card-main-div {
+    position: relative;
+    height: 180px;
+    width: auto;
+    min-width: 300px;
+    background-color: #19222f;
+    -webkit-box-shadow: 0px 0px 21px -7px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 21px -7px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 21px -7px rgba(0, 0, 0, 1);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 6px;
+    float: left;
+}
+
+.card-main-div label {
+    position: relative;
+    width: 98%;
+    height: 25%;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 7px;
+    border-radius: 6px;
+    background-color: #45a789;
+    -webkit-box-shadow: 0px 0px 21px -7px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 21px -7px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 21px -7px rgba(0, 0, 0, 1);
+}
+
+
+.card-main-div div {
+    position: relative;
+    height: 75%;
+    width: 98%;
+    margin-left: 2%;
+    color: #45a789;
+    padding-top: 15%;
+    font-size: 50px;
+    text-align: center;
+}
+
+.card-main-div div .chart {
+    position: relative;
+    width: 110px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    line-height: 110px;
+    padding: 0px;
+    color: #45a789;
+}
+
+.card-main-div div canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+.card-red label {
+    color: #ffffff !important;
+    background-color: #a74545 !important;
+}
+
+.card-red div {
+    color: #a74545 !important;
+}
+
+.card-purple label {
+    color: #ffffff !important;
+    background-color: #7845a7 !important;
+}
+
+.card-purple div {
+    color: #7845a7 !important;
+}
+
+
+.card-blue label {
+    color: #ffffff !important;
+    background-color: #414db6 !important;
+}
+
+.card-blue div {
+    color: #414db6 !important;
+}
