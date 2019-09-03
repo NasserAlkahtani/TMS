@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Dashboard</title>
     <link href="../assets/css/index.css" rel="stylesheet">
-    <link href="../assets/css/card-list.css" rel="stylesheet">
 
 
     <?php
@@ -69,13 +68,44 @@ include('shared/sidebar.php');
     
 
  
+     <div class="card-new-main-div card-purple">
+      <label> Number of employees</label>
+      <div> 20,000 </div>
+     </div>
+
+
+
+     <div class="card-new-main-div card-blue">
+      <label> Number of projects </label>
+      <div> 3 </div>
+     </div>
+
+ 
+     <div class="card-new-main-div card-red">
+      <label> Complete precentage </label>
+      <div> 79.5% </div>
+     </div>
+
+     <div class="card-new-main-div">
+      <label> Number of projects and number</label>
+        <div> 
+         <div class="chart" data-percent="73" data-scale-color="#ffb400">73%</div>
+        </div>
+     </div>
+
 
      
+   
+
+
+
+<!--     
 
      <div class="card-main-div card-purple">
       <label> Number of employees</label>
       <div> 20,000 </div>
      </div>
+
 
 
      <div class="card-main-div card-blue">
@@ -93,17 +123,17 @@ include('shared/sidebar.php');
 
      <div class="card-chart-main-div">
      <div class="card-chart-borders-div">
-              <div class="card-chart-column column-90">25</div>
-              <div class="card-chart-column column-80">75</div>
-              <div class="card-chart-column column-60">25</div>
-              <div class="card-chart-column column-100">100</div>
-              <div class="card-chart-column column-30">75</div>
-              <div class="card-chart-column column-50">100</div>
-              <div class="card-chart-column column-20">50</div>
-              <div class="card-chart-column column-70">50</div>
-              <div class="card-chart-column column-10">25</div>
-              <div class="card-chart-column column-1"></div>
-              <div class="card-chart-column column-40">25</div>
+       <div class="card-chart-column column-100">100</div>
+       <div class="card-chart-column column-90">25</div>
+       <div class="card-chart-column column-80">75</div>
+       <div class="card-chart-column column-70">25</div>
+       <div class="card-chart-column column-60">25</div>
+       <div class="card-chart-column column-50">100</div>
+       <div class="card-chart-column column-40">25</div>
+       <div class="card-chart-column column-30">25</div>
+       <div class="card-chart-column column-20">25</div>
+       <div class="card-chart-column column-10">25</div>
+        <div class="card-chart-column column-1"></div>
 
      </div>
      </div>
@@ -152,7 +182,7 @@ include('shared/sidebar.php');
               
              </table>
         </div>
-     </div>
+     </div> -->
 
 
 </div> <!-- end body -->
