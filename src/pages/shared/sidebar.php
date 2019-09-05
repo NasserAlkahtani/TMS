@@ -4,7 +4,7 @@
 <div class="company-name-logo">
    <a href="account.php">
 <?php
-   include("../module/database/database.php"); 
+   include("../../module/database/database.php"); 
    $sql = 'SELECT * FROM `companies` WHERE id='.$_SESSION['cid'];
    $res = mysqli_query($conn,$sql);
  

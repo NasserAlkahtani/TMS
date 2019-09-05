@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Projects</title>
-    <link href="../assets/css/index.css" rel="stylesheet">
+    <link href="../../assets/css/index.css" rel="stylesheet">
 
 
     <?php
-           include('links.php'); 
+           include('../links.php'); 
      ?>
 </head>
 <body>
@@ -26,9 +26,9 @@ if(!($_SESSION['logedin'] == "true" && isset($_SESSION['cid']))){
 
 
 <?php
-include('./shared/navbar.php');
+include('./../shared/navbar.php');
 
-include('./shared/sidebar.php');
+include('./../shared/sidebar.php');
 
 ?>
 
@@ -67,7 +67,7 @@ include('./shared/sidebar.php');
 
 
 </body>
-<script src="../assets/js/jquery.easypiechart.js"></script>
+<script src="../../assets/js/jquery.easypiechart.js"></script>
 <script>
     $(function() {
         $('.chart').easyPieChart({

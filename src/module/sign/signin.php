@@ -23,7 +23,7 @@ if (mysqli_num_rows($result) == 1) {
       $_SESSION['logedin'] = "true"; 
       $_SESSION['cid'] = $row['id'];
     }
-    header('location: ../../pages/index.php');
+    header('location: ../../pages/company/index.php');
     exit(); 
 
 }else if(mysqli_num_rows($result) > 1){

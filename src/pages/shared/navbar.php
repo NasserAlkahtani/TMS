@@ -23,7 +23,7 @@
 
         <div class="off-icon-dropdown-div-sign">
         <a href="#"><button>Add account</button></a>
-        <a href="../module/sign/signout.php"><button >Sign out</button></a>
+        <a href="../../module/sign/signout.php"><button >Sign out</button></a>
        </div>
         
      </div>

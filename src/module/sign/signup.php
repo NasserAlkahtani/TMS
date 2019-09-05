@@ -64,12 +64,12 @@ if(mysqli_num_rows($resultCheckEmail) > 0){
         }
 
 
-       header('location: ../../pages/index.php');
+       header('location: ../../pages/company/index.php');
        exit(); 
 
     }
       
-    header('location: ../../pages/index.php');
+    header('location: ../../pages/company/index.php');
     exit(); 
 
 
