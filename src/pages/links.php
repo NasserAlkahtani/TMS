@@ -9,10 +9,6 @@
     <link href="../../assets/fontawesome/css/all.css" rel="stylesheet"> 
     <link href="../../assets/css/all.css" rel="stylesheet">
     <link href="../../assets/css/card.css" rel="stylesheet">
-    <link href="../../assets/css/card-chart.css" rel="stylesheet">
-    <link href="../../assets/css/card-list.css" rel="stylesheet">
-    <link href="../../assets/css/card-new.css" rel="stylesheet">
-
 
     <!--load all styles -->
     <!--load all styles -->

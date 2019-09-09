@@ -1,88 +1,72 @@
-.card-main-div {
+.card {
     position: relative;
-    height: 180px;
-    width: auto;
-    min-width: 300px;
-    background-color: #19222f;
-    -webkit-box-shadow: 0px 0px 21px -7px rgba(0, 0, 0, 1);
-    -moz-box-shadow: 0px 0px 21px -7px rgba(0, 0, 0, 1);
-    box-shadow: 0px 0px 21px -7px rgba(0, 0, 0, 1);
-    margin: 20px;
-    padding: 20px;
-    border-radius: 6px;
     float: left;
-}
-
-.card-main-div label {
-    position: relative;
-    width: 100%;
-    height: 25%;
-    color: #ffffff;
-    font-size: 17px;
-    padding: 7px;
-    border-radius: 6px;
-    background-color: #45a789;
+    background-color: #19222f;
+    margin: 2.5%;
     -webkit-box-shadow: 0px 0px 21px -7px rgba(0, 0, 0, 1);
     -moz-box-shadow: 0px 0px 21px -7px rgba(0, 0, 0, 1);
     box-shadow: 0px 0px 21px -7px rgba(0, 0, 0, 1);
-}
-
-
-.card-main-div div {
-    position: relative;
-    height: 75%;
-    width: 98%;
-    margin-left: 2%;
-    color: #45a789;
-    padding-top: 15%;
-    font-size: 50px;
-    text-align: center;
-}
-
-.card-main-div div .chart {
-    position: relative;
-    width: 110px;
-    height: 100px;
-    margin: 0 auto;
-    text-align: center;
-    font-size: 30px;
-    line-height: 110px;
-    padding: 0px;
+    border-radius: 6px;
     color: #45a789;
 }
 
-.card-main-div div canvas {
+.card label {
     position: absolute;
-    top: 0;
-    left: 0;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    top: -10px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0px 0px 21px -7px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 21px -7px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 21px -7px rgba(0, 0, 0, 1);
+    background-color: #45a789;
+    text-align: center;
+    color: white;
+}
+
+.card-single {
+    width: 28.3333333%;
+    height: 28.5%;
+}
+
+.card-double {
+    width: 61.6666666%;
+    height: 64.5%;
 }
 
 
-
-.card-red label {
-    color: #ffffff !important;
-    background-color: #a74545 !important;
+.card-full {
+    width: 95%;
+    height: auto;
+    min-height: 28.666666%
 }
 
-.card-red div {
-    color: #a74545 !important;
+.card-single label {
+    height: 26px;
+    padding-top: 4px;
+}
+
+.card-double label {
+    height: 27px;
+    padding-top: 5px;
+}
+
+.card-full label {
+    height: 29px;
+    padding-top: 5px;
 }
 
 .card-purple label {
-    color: #ffffff !important;
-    background-color: #7845a7 !important;
+    background-color: #7845a7;
 }
-
-.card-purple div {
-    color: #7845a7 !important;
-}
-
 
 .card-blue label {
-    color: #ffffff !important;
-    background-color: #414db6 !important;
+    background-color: #414db6;
+
 }
 
-.card-blue div {
-    color: #414db6 !important;
+.card-red label {
+    background-color: #a74545;
+
 }

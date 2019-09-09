@@ -1,5 +1,19 @@
+html,
+body {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: #131c27;
+    font-family: 'Roboto', sans-serif;
+}
+
+
 .body {
     position: absolute;
-    margin-left: 19%;
-    margin-top: 70px;
+    margin-left: 20.5%;
+    margin-top: 5.7%;
+    width: 79.5%;
+    height: 94.3%;
 }

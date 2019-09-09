@@ -68,121 +68,61 @@ include('../shared/sidebar.php');
     
 
  
-     <div class="card-new-main-div card-purple">
-      <label> Number of employees</label>
-      <div> 20,000 </div>
+
+     <div class="card card-single">
+       <label>Number of employees</label>
+     </div>
+     <div class="card card-single card-purple">
+     <label>Tasks</label>
+     </div>
+     <div class="card card-single card-blue">
+     <label>Daliy cahrt</label>
+     </div>
+
+
+     <div class="card card-double card-red">
+      <label>Sucess precentage</label>
+     </div>
+     <div class="card card-single">
+     <label>Number of projects</label>
+     </div>
+     <div class="card card-single card-blue">
+     <label>Top three employees</label>
+     </div>
+
+     <div class="card card-full">
+     <label>List of projects</label>    
      </div>
 
 
 
-     <div class="card-new-main-div card-blue">
-      <label> Number of projects </label>
-      <div> 3 </div>
+     <div class="card card-single">
+       <label>Number of employees</label>
      </div>
-
- 
-     <div class="card-new-main-div card-red">
-      <label> Complete precentage </label>
-      <div> 79.5% </div>
+     <div class="card card-single card-purple">
+     <label>Tasks</label>
      </div>
-
-     <div class="card-new-main-div">
-      <label> Number of projects and number</label>
-        <div> 
-         <div class="chart" data-percent="73" data-scale-color="#ffb400">73%</div>
-        </div>
+     <div class="card card-single card-blue">
+     <label>Daliy cahrt</label>
      </div>
 
 
-     
-   
+     <div class="card card-double card-red">
+      <label>Sucess precentage</label>
+     </div>
+     <div class="card card-single">
+     <label>Number of projects</label>
+     </div>
+     <div class="card card-single card-blue">
+     <label>Top three employees</label>
+     </div>
 
-
-
-<!--     
-
-     <div class="card-main-div card-purple">
-      <label> Number of employees</label>
-      <div> 20,000 </div>
+     <div class="card card-full">
+     <label>List of projects</label>    
      </div>
 
 
 
-     <div class="card-main-div card-blue">
-      <label> Number of projects </label>
-      <div> 3 </div>
-     </div>
-
- 
-     <div class="card-main-div card-red">
-      <label> Complete precentage </label>
-      <div> 79.5% </div>
-     </div>
-
-
-
-     <div class="card-chart-main-div">
-     <div class="card-chart-borders-div">
-       <div class="card-chart-column column-100">100</div>
-       <div class="card-chart-column column-90">25</div>
-       <div class="card-chart-column column-80">75</div>
-       <div class="card-chart-column column-70">25</div>
-       <div class="card-chart-column column-60">25</div>
-       <div class="card-chart-column column-50">100</div>
-       <div class="card-chart-column column-40">25</div>
-       <div class="card-chart-column column-30">25</div>
-       <div class="card-chart-column column-20">25</div>
-       <div class="card-chart-column column-10">25</div>
-        <div class="card-chart-column column-1"></div>
-
-     </div>
-     </div>
-
-
-     <div class="card-main-div">
-      <label> Number of projects and number</label>
-        <div> 
-         <div class="chart" data-percent="73" data-scale-color="#ffb400">73%</div>
-        </div>
-     </div>
-
-
-
-
- 
-     <div class="card-list-main-div">
-      <label> Top 3 employees</label>
-        <div> 
-             <table>
-              <tr class="first">
-                 <td class="table-border-left-top">id</td>
-                 <td>name</td>
-                 <td>User name</td>
-                 <td class="table-border-right-top">More</td>
-               </tr>
-               <tr>
-                 <td>1</td>
-                 <td>Nasser</td>
-                 <td>Nasser-theebfit.co</td>
-                 <td><a href="">More info</a></td>
-               </tr>
-               <tr>
-                 <td>12</td>
-                 <td>Omar</td>
-                 <td>OmarFuck-192</td>
-                 <td><a href="">More info</a></td>
-
-               </tr>
-               <tr>
-                 <td>9</td>
-                 <td>Anas</td>
-                 <td>Anassick-8712</td>
-                 <td><a href="">More info</a></td>
-               </tr>
-              
-             </table>
-        </div>
-     </div> -->
 
 
 </div> <!-- end body -->

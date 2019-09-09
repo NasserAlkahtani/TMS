@@ -5,7 +5,7 @@
            include('links.php'); 
       ?>
 
- 
+    <link href="../assets/css/notification.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/sign.css" >
     <title>Sign up</title>
   </head>
@@ -94,6 +94,7 @@
 
 
     </div>
+    <script src="../assets/js/notification.js"></script>
     <script src="../assets/js/sign.js"></script>
   </body>
 </html>
