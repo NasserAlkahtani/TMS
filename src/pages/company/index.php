@@ -124,7 +124,9 @@ include('../shared/sidebar.php');
 
 
 
-
+<div class="footer">
+<i class="far fa-copyright"></i> hat tech 2019-2020
+</div>
 </div> <!-- end body -->
 
 

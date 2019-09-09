@@ -1,19 +1,34 @@
-html,
-body {
-    position: absolute;
+html {
     height: 100%;
     width: 100%;
     padding: 0px;
     margin: 0px;
-    background-color: #131c27;
-    font-family: 'Roboto', sans-serif;
 }
 
+body {
+    background-color: #131c27;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
 
 .body {
     position: absolute;
     margin-left: 20.5%;
     margin-top: 5.7%;
     width: 79.5%;
+    height: auto;
     height: 94.3%;
+}
+
+.footer {
+    margin-top: 40px;
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: #344253;
 }
