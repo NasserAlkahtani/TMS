@@ -25,6 +25,31 @@
     color: white;
 }
 
+.card div {
+    position: relative;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    height: 90%;
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 200%;
+}
+
+.card div i {
+    margin-right: 4%;
+    font-size: 80%;
+}
+
+.card div .chartjs-size-monitor {
+    margin: 0 !important;
+}
+
 .card-single {
     width: 28.3333333%;
     height: 28.5%;
@@ -35,11 +60,15 @@
     height: 64.5%;
 }
 
+.card-single-double {
+    width: 28.3333333%;
+    height: 64.5%;
+}
 
 .card-full {
     width: 95%;
     height: auto;
-    min-height: 28.666666%
+    min-height: 28.666666%;
 }
 
 .card-single label {
@@ -52,21 +81,27 @@
     padding-top: 5px;
 }
 
+.card-single-double label {
+    height: 27px;
+    padding-top: 5px;
+}
+
 .card-full label {
     height: 29px;
     padding-top: 5px;
 }
 
 .card-purple label {
+    /* background-color: #283241; */
     background-color: #7845a7;
 }
 
 .card-blue label {
+    /* background-color: #283241; */
     background-color: #414db6;
-
 }
 
 .card-red label {
+    /* background-color: #283241; */
     background-color: #a74545;
-
 }

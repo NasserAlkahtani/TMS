@@ -12,17 +12,17 @@
       if(mysqli_num_rows($res) > 0 ){
          $row = mysqli_fetch_assoc($res);
          if($row['logo'] == NULL){
-            echo '<img class="company-logo" src="../assets/img/user-placeholder.png">';
+            echo '<img class="company-logo" src="../../assets/img/user-placeholder.png">';
          }else{
             echo '
             <img class="company-logo" src="data:image/jpeg;base64,'.base64_encode($row['logo']).'" >
             ';
          }
       }else{
-         echo '<img class="company-logo" src="../../assets/img/user-placeholder.png">';
+         echo '<img class="company-logo" src="../../../assets/img/user-placeholder.png">';
       }
    }else{
-      echo '<img class="company-logo" src="../../assets/img/user-placeholder.png">';
+      echo '<img class="company-logo" src="../../../assets/img/user-placeholder.png">';
    }
 ?>
 </a>

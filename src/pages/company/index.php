@@ -65,23 +65,63 @@ include('../shared/sidebar.php');
 
 ?>
      
-    
-
  
 
+     <!-- <div id="notification" class="notification notification-danger">
+      <label class="notification-label">Hi bitch</label>
+      <div id="notification-x" class="notification-x"><img src="../../assets/img/x-icon.png"></div>
+     </div> -->
+
+     <div class="card card-double card-red">
+      <label>Sucess precentage</label>
+      <div>
+           <canvas id="line-chart">
+
+           </canvas>
+      </div>
+</div>
+      
+<div class="card card-single">
+       <label>Number of employees</label>
+       <div>
+       <i class="fas fa-users"></i>5,000
+       </div>
+     </div>
+
      <div class="card card-single">
        <label>Number of employees</label>
+       <div>
+       <i class="fas fa-users"></i>5,000
+       </div>
+     </div>
+
+     
+     <div class="card card-single">
+       <label>Number of employees</label>
+       <div>
+       <i class="fas fa-users"></i>5,000
+       </div>
      </div>
      <div class="card card-single card-purple">
      <label>Tasks</label>
+     <div>
+
+     </div>
+
      </div>
      <div class="card card-single card-blue">
      <label>Daliy cahrt</label>
      </div>
 
+    
 
      <div class="card card-double card-red">
       <label>Sucess precentage</label>
+      <div>
+           <canvas id="line-chart">
+
+           </canvas>
+      </div>
      </div>
      <div class="card card-single">
      <label>Number of projects</label>
@@ -96,37 +136,32 @@ include('../shared/sidebar.php');
 
 
 
-     <div class="card card-single">
-       <label>Number of employees</label>
-     </div>
-     <div class="card card-single card-purple">
-     <label>Tasks</label>
-     </div>
-     <div class="card card-single card-blue">
-     <label>Daliy cahrt</label>
-     </div>
+
 
 
      <div class="card card-double card-red">
       <label>Sucess precentage</label>
      </div>
-     <div class="card card-single">
-     <label>Number of projects</label>
-     </div>
-     <div class="card card-single card-blue">
-     <label>Top three employees</label>
+     
+     <div class="card card-single-double card-purple">
+      <label>Sucess precentage</label>
+      <div>
+      <div>
+             5,000
+       </div>
+      </div>
      </div>
 
-     <div class="card card-full">
-     <label>List of projects</label>    
-     </div>
 
+ 
 
 
 
 <div class="footer">
 <i class="far fa-copyright"></i> hat tech 2019-2020
 </div>
+
+
 </div> <!-- end body -->
 
 
@@ -137,6 +172,8 @@ include('../shared/sidebar.php');
 
 
 <script src="../../assets/js/jquery.easypiechart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+<script src="../../assets/js/line-chart.js"></script>
 <script>
     $(function() {
         $('.chart').easyPieChart({
