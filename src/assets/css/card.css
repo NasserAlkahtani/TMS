@@ -98,6 +98,7 @@
     background-color: #7845a7;
 }
 
+
 .card-blue label {
     /* background-color: #283241; */
     background-color: #414db6;
@@ -105,5 +106,21 @@
 
 .card-red label {
     /* background-color: #283241; */
-    background-color: #a74545;
+    background-color: #b3205d;
+}
+
+
+.card-purple div {
+    /* background-color: #283241; */
+    color: #7845a7;
+}
+
+.card-blue div {
+    /* background-color: #283241; */
+    color: #414db6;
+}
+
+.card-red div {
+    /* background-color: #283241; */
+    color: #b3205d;
 }

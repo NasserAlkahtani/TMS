@@ -100,15 +100,18 @@ include('../shared/sidebar.php');
        </div>
      </div>
      <div class="card card-single">
-       <label>Number of employees</label>
+       <label>Number of projects</label>
        <div>
-         <i class="fas fa-users"></i>5,000
+       <i class="fas fa-project-diagram"></i> 5
        </div>
      </div>
      <div class="card card-single">
-       <label>Number of employees</label>
-       <div>
-         <i class="fas fa-users"></i>5,000
+       <label>Tasks status</label>
+       <div class="card-single-chart">
+         <canvas id="tasks-done-chart">
+
+         </canvas>
+         <!-- <i class="fas fa-users"></i>5,000 -->
        </div>
      </div>
 
