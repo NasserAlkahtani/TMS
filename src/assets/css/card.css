@@ -49,6 +49,7 @@
     border-collapse: collapse;
     display: table;
     margin-top: -1%;
+    font-family: 'Roboto', sans-serif;
 }
 
 .card div table i {
@@ -62,25 +63,66 @@
     color: #2c6856;
 }
 
-.card div table th {
-    font-size: 115%;
-    background-color: #19222f;
-    padding: 1%;
-    /* border-bottom: 2px solid #0e141b; */
+
+.card div table tr .first {
+    width: 10%;
+    text-align: center;
 }
 
-.card div table td {
+.card div table tr .more {
+    width: 10%;
+    text-align: center;
+}
+
+.card div table tr td {
     font-size: 85%;
     padding: 1%;
-    color: white;
+    color: #acacac;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
 }
+
+.card div table tr th {
+    font-size: 85%;
+    padding: 1%;
+    color: #55b99b;
+    /* background-color: #45a78a73; */
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card div table tr th .first {
+    border-top-left-radius: 6px;
+}
+
+.card div table tr th .more {
+    border-top-right-radius: 6px;
+}
+
+.card div table tr .first-row:hover {
+    background-color: #131a24d2;
+}
+
+
 
 .card div table tr:nth-child(even) {
     background-color: #131a24d2;
+    transition: 0.3s;
+}
+
+.card div table tr:nth-child(even):hover {
+    /* herer */
+    background-color: #1d1d1d;
 }
 
 .card div table tr:nth-child(odd) {
     background-color: #19222f;
+    transition: 0.3s;
+}
+
+
+.card div table tr:nth-child(odd):hover {
+    background-color: #1d1d1d;
 }
 
 .card div i {

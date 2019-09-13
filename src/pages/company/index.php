@@ -73,29 +73,29 @@ include('../shared/sidebar.php');
        <label>List of projects</label>    
        <div>
          <table>
-           <tr>
+           <tr class="first-row">
+             <th style="border-top-left-radius: 6px;" class="first">#ID</th>
              <th>Name</th>
-             <th>@Email</th>
-             <th>age</th>
-             <th>more</th>
+             <th>Username</th>
+             <th style="border-top-right-radius: 6px;" class="more">More</th>
            </tr>
            <tr>
-             <td>Beef</td>
-             <td>Beef</td>
-             <td>Beef</td>
-             <td><i class="fas fa-info-circle"></i></td>
+             <td class="first">24</td>
+             <td>Omar alhatlan</td>
+             <td>user2412348</td>
+             <td class="more" ><i class="fas fa-info-circle"></i></td>
            </tr>
            <tr>
-             <td>Beef</td>
-             <td>Beef</td>
-             <td>Beef</td>
-             <td><i class="fas fa-info-circle"></i></td>
+             <td class="first">32</td>
+             <td>Anas</td>
+             <td>user24232312</td>
+             <td class="more"><i class="fas fa-info-circle"></i></td>
            </tr>
            <tr>
-             <td>Beef</td>
-             <td>Beef</td>
-             <td>Beef</td>
-             <td><i class="fas fa-info-circle"></i></td>
+             <td class="first">2</td>
+             <td>Abdulelah Alkahtani</td>
+             <td>user231</td>
+             <td class="more"><i class="fas fa-info-circle"></i></td>
            </tr>
          </table>
        </div>
