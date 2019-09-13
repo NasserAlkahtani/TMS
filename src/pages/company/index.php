@@ -67,31 +67,39 @@ include('../shared/sidebar.php');
      
  
 
-     <!-- <div id="notification" class="notification notification-danger">
-      <label class="notification-label">Hi bitch</label>
-      <div id="notification-x" class="notification-x"><img src="../../assets/img/x-icon.png"></div>
-     </div> -->
+     
 
-
-
-
-     <!-- <div class="card card-single">
-       <label>Number of employees</label>
+     <div class="card card-full">
+       <label>List of projects</label>    
        <div>
-       <i class="fas fa-users"></i>5,000
+         <table>
+           <tr>
+             <th>Name</th>
+             <th>@Email</th>
+             <th>age</th>
+             <th>more</th>
+           </tr>
+           <tr>
+             <td>Beef</td>
+             <td>Beef</td>
+             <td>Beef</td>
+             <td><i class="fas fa-info-circle"></i></td>
+           </tr>
+           <tr>
+             <td>Beef</td>
+             <td>Beef</td>
+             <td>Beef</td>
+             <td><i class="fas fa-info-circle"></i></td>
+           </tr>
+           <tr>
+             <td>Beef</td>
+             <td>Beef</td>
+             <td>Beef</td>
+             <td><i class="fas fa-info-circle"></i></td>
+           </tr>
+         </table>
        </div>
-     </div> -->
-    
-     <!-- <div class="card card-single card-purple">
-     <label>Tasks</label>
-     <div>
-
-     </div> -->
-
-     <!-- </div>
-     <div class="card card-single card-blue">
-     <label>Daliy cahrt</label>
-     </div> -->
+     </div>
 
      <div class="card card-single">
        <label>Number of employees</label>
@@ -99,26 +107,22 @@ include('../shared/sidebar.php');
          <i class="fas fa-users"></i>5,000
        </div>
      </div>
+
      <div class="card card-single">
        <label>Number of projects</label>
        <div>
        <i class="fas fa-project-diagram"></i> 5
        </div>
      </div>
+
      <div class="card card-single">
        <label>Tasks status</label>
        <div class="card-single-chart">
          <canvas id="tasks-done-chart">
    
          </canvas>
-         <!-- <i class="fas fa-users"></i>5,000 -->
        </div>
      </div>
-
-    
-
-
-
 
      <div class="card card-double">
       <label>Sucess precentage</label>
@@ -129,29 +133,56 @@ include('../shared/sidebar.php');
        </div>
      </div>
       
-     <div class="card card-single-double">
+     <div class="card card-single">
+       <label>Number of employees</label>
+       <div>
+         <i class="fas fa-users"></i>5,000
+       </div>
+     </div>
+
+     <div class="card card-single">
+       <label>Number of employees</label>
+       <div>
+         <i class="fas fa-users"></i>5,000
+       </div>
+     </div>
+    
+     
+     <div class="card card-double">
       <label>Bar chart</label>
-      <div>
-             <canvas  id="bar-chart">
+        <div>
+           <canvas id="bar-chart">
 
-             </canvas>
-      </div>
+           </canvas>
+       </div>
      </div>
 
-
-
-
-
-
-
-
-
-     <div class="card card-full">
-     <label>List of projects</label>    
-     <div>
-
+     <div class="card card-single">
+       <label>Number of employees</label>
+       <div>
+         <i class="fas fa-users"></i>5,000
+       </div>
      </div>
+     
+     <div class="card card-single">
+       <label>Number of employees</label>
+       <div>
+         <i class="fas fa-users"></i>5,000
+       </div>
      </div>
+
+     
+     
+
+
+
+
+
+
+
+
+
+    
 
 
 

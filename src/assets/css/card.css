@@ -42,6 +42,47 @@
     font-size: 250%;
 }
 
+.card div table {
+    width: 100%;
+    font-size: 20px;
+    border-radius: 6px;
+    border-collapse: collapse;
+    display: table;
+    margin-top: -1%;
+}
+
+.card div table i {
+    cursor: pointer;
+    color: #45a789;
+    font-size: 135%;
+    transition: 0.3s;
+}
+
+.card div table i:hover {
+    color: #2c6856;
+}
+
+.card div table th {
+    font-size: 115%;
+    background-color: #19222f;
+    padding: 1%;
+    /* border-bottom: 2px solid #0e141b; */
+}
+
+.card div table td {
+    font-size: 85%;
+    padding: 1%;
+    color: white;
+}
+
+.card div table tr:nth-child(even) {
+    background-color: #131a24d2;
+}
+
+.card div table tr:nth-child(odd) {
+    background-color: #19222f;
+}
+
 .card div i {
     margin-right: 4%;
     font-size: 90%;
