@@ -39,12 +39,12 @@
     text-align: center;
     margin-top: 5%;
     margin-bottom: 5%;
-    font-size: 200%;
+    font-size: 250%;
 }
 
 .card div i {
     margin-right: 4%;
-    font-size: 80%;
+    font-size: 90%;
 }
 
 .card div .chartjs-size-monitor {
@@ -62,10 +62,16 @@
 }
 
 .card-single-double {
-    flex-direction: column;
     width: 28.3333333%;
     height: 64.5%;
 }
+
+
+.card-single-double div {
+    margin-top: 10% !important;
+    margin-bottom: 0% !important;
+}
+
 
 .card-full {
     width: 95%;

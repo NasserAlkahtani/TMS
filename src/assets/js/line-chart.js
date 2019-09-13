@@ -8,7 +8,7 @@ canvas.height = canvas.offsetHeight;
 
 let c = canvas.getContext("2d");
 
-var chart = new Chart(c, {
+var chartLine = new Chart(c, {
     // The type of chart we want to create
     type: "line",
     // The data for our dataset
@@ -28,6 +28,7 @@ var chart = new Chart(c, {
 });
 
 
+
 let tasksDoneChart = document.getElementById("tasks-done-chart");
 // Make it visually fill the positioned parent
 // tasksDoneChart.style.width = "90%";
@@ -40,14 +41,14 @@ let tasksDoneChart = document.getElementById("tasks-done-chart");
 
 let tasksDoneChartContext = tasksDoneChart.getContext("2d");
 
-var chart = new Chart(tasksDoneChartContext, {
+var chartPie = new Chart(tasksDoneChartContext, {
     // The type of chart we want to create
     type: "doughnut",
 
     // The data for our dataset
     data: {
 
-        labels: ["DONE", "WIP", "TODO"],
+        labels: ["DONE", "WIP", "TO-DO"],
         datasets: [{
             backgroundColor: [
                 'rgba(255, 99, 132)',
@@ -65,4 +66,44 @@ var chart = new Chart(tasksDoneChartContext, {
         cutoutPercentage: 50,
         rotation: 10,
     }
+});
+
+
+
+let barChart = document.getElementById("bar-chart");
+// Make it visually fill the positioned parent
+barChart.style.width = "100%";
+barChart.style.height = "100%";
+// ...then set the internal size to match
+barChart.width = barChart.offsetWidth;
+barChart.height = barChart.offsetHeight;
+
+let con = barChart.getContext("2d");
+
+var chartBar = new Chart(con, {
+    // The type of chart we want to create
+    type: "bar",
+    // The data for our dataset
+    data: {
+        labels: ["January", "February", "March", "Fuck"],
+        label: "fill",
+        datasets: [{
+            backgroundColor: [
+                'rgba(255, 99, 132)',
+                'rgba(54, 162, 235)',
+                'rgba(255, 206, 86)',
+                '#702bbc',
+
+            ],
+            borderColor: [
+                'rgba(255, 99, 132)',
+                'rgba(54, 162, 235)',
+                'rgba(255, 206, 86)',
+            ],
+            data: [30, 25, 11, 40]
+        }]
+    },
+
+    // Configuration options go here
+    options: {}
 });
