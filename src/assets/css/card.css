@@ -3,6 +3,7 @@
     float: left;
     background-color: #19222f;
     margin: 2.5%;
+    margin-bottom: 2.5%;
     -webkit-box-shadow: 0px 0px 21px -7px rgba(0, 0, 0, 1);
     -moz-box-shadow: 0px 0px 21px -7px rgba(0, 0, 0, 1);
     box-shadow: 0px 0px 21px -7px rgba(0, 0, 0, 1);
@@ -61,6 +62,7 @@
 }
 
 .card-single-double {
+    flex-direction: column;
     width: 28.3333333%;
     height: 64.5%;
 }
