@@ -71,17 +71,23 @@ include('../shared/sidebar.php');
 
 
 
-     <div class="card card-single card-purple">
+     <div class="card card-single">
        <label>Number of employees</label>
-       <div>
-         <i class="fas fa-users"></i>520,549
+       <div >
+         <i class="fas fa-users"></i>
+         <div class="countup">
+                4
+         </div>
        </div>
      </div>
 
-     <div class="card card-single card-blue">
+     <div class="card card-single">
        <label>Number of projects</label>
-       <div>
-       <i class="fas fa-project-diagram"></i> 5
+       <div >
+       <i class="fas fa-project-diagram"></i>
+         <div class="countup">
+                  5
+         </div>
        </div>
      </div>
 
@@ -98,7 +104,7 @@ include('../shared/sidebar.php');
       
   
      
-     <div class="card card-double card-pink">
+     <div class="card card-double">
       <label>Bar chart</label>
         <div>
            <canvas id="line-chart">
@@ -152,14 +158,20 @@ include('../shared/sidebar.php');
      <div class="card card-single">
        <label>Number of employees</label>
        <div>
-         <i class="fas fa-users"></i>5,000
+         <i class="fas fa-users"></i>
+         <div class="countup">
+                  5
+         </div>
        </div>
      </div>
      
      <div class="card card-single">
        <label>Number of employees</label>
        <div>
-         <i class="fas fa-users"></i>5,000
+         <i class="fas fa-users"></i>
+         <div class="countup">
+                  5
+         </div>
        </div>
      </div>
 
@@ -167,7 +179,10 @@ include('../shared/sidebar.php');
      <div class="card card-single">
        <label>Number of employees</label>
        <div>
-         <i class="fas fa-users"></i>5,000
+         <i class="fas fa-users"></i>
+         <div class="countup">
+                  5
+         </div>
        </div>
 </div>
      
@@ -217,17 +232,13 @@ include('../shared/sidebar.php');
 <script src="../../assets/js/jquery.easypiechart.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 <script src="../../assets/js/charts.js"></script>
-<script>
-    $(function() {
-        $('.chart').easyPieChart({
-          "barColor":"#45a789",
-          "trackColor":"#19222f",
-          "scaleColor":"#45a789"
-        });
-    });
-</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script> 
 <script>
 $(document).ready(function() {
+
+    $(".countup").counterUp({delay:5,time:500,})
+
     $('#dashboard-menu-item').addClass('active')
 });
 </script>
