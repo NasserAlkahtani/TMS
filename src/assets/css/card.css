@@ -60,7 +60,7 @@
 }
 
 .card div table i:hover {
-    color: #2c6856;
+    color: #387ab8;
 }
 
 
@@ -99,10 +99,10 @@
     border-top-right-radius: 6px;
 }
 
-.card div table tr .first-row:hover {
+/* .card div table tr .first-row:hover {
     background-color: #131a24d2;
 }
-
+ */
 
 
 .card div table tr:nth-child(even) {
@@ -110,10 +110,9 @@
     transition: 0.3s;
 }
 
-.card div table tr:nth-child(even):hover {
-    /* herer */
-    background-color: #1d1d1d;
-}
+/* .card div table tr:nth-child(even):hover {
+    background-color: #51af8086;
+} */
 
 .card div table tr:nth-child(odd) {
     background-color: #19222f;
@@ -121,9 +120,9 @@
 }
 
 
-.card div table tr:nth-child(odd):hover {
-    background-color: #1d1d1d;
-}
+/* .card div table tr:nth-child(odd):hover {
+    background-color: #51af8086;
+} */
 
 .card div i {
     margin-right: 4%;
@@ -198,6 +197,14 @@
     background-color: #b3205d;
 }
 
+.card-pink label {
+    background-color: rgb(255, 99, 132);
+}
+
+.card-pink div {
+
+    color: rgb(255, 99, 132);
+}
 
 .card-purple div {
     /* background-color: #283241; */

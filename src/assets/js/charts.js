@@ -19,7 +19,7 @@ var chartLine = new Chart(c, {
             fill: "false",
             backgroundColor: "rgb(255, 99, 132)",
             borderColor: "rgb(255, 99, 132)",
-            data: [0, 10, 5, 35, 20, 30, 45]
+            data: [20, 20, 25, 35, 10, 30, 45]
         }]
     },
 
@@ -100,7 +100,7 @@ var chartBar = new Chart(con, {
                 'rgba(54, 162, 235)',
                 'rgba(255, 206, 86)',
             ],
-            data: [30, 25, 11, 40]
+            data: [30, 25, 9, 40]
         }]
     },
 

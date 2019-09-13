@@ -69,6 +69,54 @@ include('../shared/sidebar.php');
 
      
 
+
+
+     <div class="card card-single card-purple">
+       <label>Number of employees</label>
+       <div>
+         <i class="fas fa-users"></i>520,549
+       </div>
+     </div>
+
+     <div class="card card-single card-blue">
+       <label>Number of projects</label>
+       <div>
+       <i class="fas fa-project-diagram"></i> 5
+       </div>
+     </div>
+
+     <div class="card card-single">
+       <label>Tasks status</label>
+       <div class="card-single-chart">
+         <canvas id="tasks-done-chart">
+   
+         </canvas>
+       </div>
+     </div>
+
+    
+      
+  
+     
+     <div class="card card-double card-pink">
+      <label>Bar chart</label>
+        <div>
+           <canvas id="line-chart">
+
+           </canvas>
+       </div>
+     </div>
+
+     <div class="card card-single-double">
+      <label>Sucess precentage</label>
+        <div>
+           <canvas id="bar-chart">
+
+           </canvas>
+       </div>
+     </div>
+
+
      <div class="card card-full">
        <label>List of projects</label>    
        <div>
@@ -100,53 +148,6 @@ include('../shared/sidebar.php');
          </table>
        </div>
      </div>
-
-     <div class="card card-single">
-       <label>Number of employees</label>
-       <div>
-         <i class="fas fa-users"></i>5,000
-       </div>
-     </div>
-
-     <div class="card card-single">
-       <label>Number of projects</label>
-       <div>
-       <i class="fas fa-project-diagram"></i> 5
-       </div>
-     </div>
-
-     <div class="card card-single">
-       <label>Tasks status</label>
-       <div class="card-single-chart">
-         <canvas id="tasks-done-chart">
-   
-         </canvas>
-       </div>
-     </div>
-
-    
-      
-  
-     
-     <div class="card card-double">
-      <label>Bar chart</label>
-        <div>
-           <canvas id="line-chart">
-
-           </canvas>
-       </div>
-     </div>
-
-     <div class="card card-single-double">
-      <label>Sucess precentage</label>
-        <div>
-           <canvas id="bar-chart">
-
-           </canvas>
-       </div>
-     </div>
-
-
 
      <div class="card card-single">
        <label>Number of employees</label>
@@ -215,7 +216,7 @@ include('../shared/sidebar.php');
 
 <script src="../../assets/js/jquery.easypiechart.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-<script src="../../assets/js/line-chart.js"></script>
+<script src="../../assets/js/charts.js"></script>
 <script>
     $(function() {
         $('.chart').easyPieChart({

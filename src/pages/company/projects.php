@@ -37,31 +37,6 @@ include('./../shared/sidebar.php');
 
 <div class="body">
 
-<div class="card-main-div card-purple">
-      <label> Number of employees</label>
-      <div> 20,000 </div>
-     </div>
-
-     
-<div class="card-main-div card-blue">
-      <label> Number of projects </label>
-      <div> 3 </div>
-     </div>
-
- 
-     <div class="card-main-div card-red">
-      <label> Complete precentage </label>
-      <div> 79.5% </div>
-     </div>
-
-
-     <div class="card-main-div">
-      <label> Number of projects and number</label>
-        <div> 
-         <div class="chart" data-percent="73" data-scale-color="#ffb400">73%</div>
-        </div>
-     </div>
-
 
 </div>
 
