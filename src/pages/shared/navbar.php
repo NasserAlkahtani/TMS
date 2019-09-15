@@ -16,7 +16,12 @@
 
 
      <a id="dropdown-button"><i class="fas fa-power-off off-icon"></i></a>
-     <div id="off-icon-dropdown-div" class="off-icon-dropdown-div">
+     
+
+</div>
+
+
+<div id="off-icon-dropdown-div" class="off-icon-dropdown-div">
        <div class="off-icon-dropdown-div-accounts">Beef</div>
       
        <div class="off-icon-dropdown-div-footer"></div>
@@ -27,7 +32,3 @@
        </div>
         
      </div>
-
-</div>
-
-

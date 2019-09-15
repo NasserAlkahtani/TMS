@@ -37,168 +37,103 @@
 
 <div class="body"><!-- start body -->
 
-   
-
-     <div class="card card-single">
-       <label>Number of employees</label>
-       <div >
-         <i class="fas fa-users"></i>
-         <div class="countup single-info">
-                4
-         </div>
-       </div>
-     </div>
-
-     <div class="card card-single">
-       <label>Number of projects</label>
-       <div >
-       <i class="fas fa-project-diagram"></i>
-         <div class="countup single-info">
-                  5
-         </div>
-       </div>
-     </div>
-
-     <div class="card card-single">
-       <label>Tasks status</label>
-       <div class="card-single-chart">
-         <canvas id="tasks-done-chart">
-   
-         </canvas>
-       </div>
-     </div>
-
-     <div class="card card-double">
-      <label>Bar chart</label>
-        <div>
-           <canvas id="line-chart">
-
-           </canvas>
-       </div>
-     </div>
-
-     <div class="card card-single-double">
-      <label>Sucess precentage</label>
-        <div>
-           <canvas id="bar-chart">
-
-           </canvas>
-       </div>
-     </div>
-
-     <div class="card card-full">
+<div class="card card-full">
        <label>List of projects</label>    
        <div>
-         <table>
+           <input class="search-list-input" type="text" placeholder="search">
+       </div>
+       <div>
+<table>
            <tr class="first-row">
-             <th style="border-top-left-radius: 6px;" class="first">#ID</th>
+             <th style="border-top-left-radius: 6px;" class="first"></th>
              <th>Name</th>
-             <th>@Email</th>
-             <th style="border-top-right-radius: 6px;" class="more more-bottom-line">More</th>
+             <th>Role</th>
+             <th style="border-top-right-radius: 6px;" class="more">More</th>
            </tr>
            <tr>
-             <td class="first">24</td>
-             <td>Omar Al-Qahtani</td>
-             <td>437101560@gmail.com</td>
+             <td class="first"><img class="img" src="http://nzlplastering.co.nz/wp-content/uploads/2017/06/David-Page.jpg" alt=""></td>
+             <td>Nasserh</td>
+             <td>Software enginner</td>
              <td class="more" ><i class="fas fa-info-circle"></i></td>
            </tr>
            <tr>
-             <td class="first">32</td>
-             <td>Anas Al-Qahtani</td>
-             <td>437101560@gmail.com</td>
-             <td class="more"><i class="fas fa-info-circle"></i></td>
-           </tr>
-           <tr>
-             <td class="first">2</td>
-             <td>Abdulelah Al-Qahtani</td>
-             <td>437101560@gmail.com</td>
-             <td class="more"><i class="fas fa-info-circle"></i></td>
-           </tr>
-         </table>
-       </div>
-     </div>
-
-     <div class="card card-single">
-       <label>Number of employees</label>
-       <div >
-         <i class="fas fa-users"></i>
-         <div class="countup single-info">
-                4
-         </div>
-       </div>
-     </div>
-
-     <div class="card card-single">
-       <label>Number of projects</label>
-       <div >
-       <i class="fas fa-project-diagram"></i>
-         <div class="countup single-info">
-                  5
-         </div>
-       </div>
-     </div>
-
-     <div class="card card-single">
-       <label>Tasks status</label>
-       <div class="card-single-chart">
-         <canvas id="tasks-done-chart">
-   
-         </canvas>
-       </div>
-     </div>
-
-     <div class="card card-double">
-      <label>Bar chart</label>
-        <div>
-           <canvas id="line-chart">
-
-           </canvas>
-       </div>
-     </div>
-
-     <div class="card card-single-double">
-      <label>Sucess precentage</label>
-        <div>
-           <canvas id="bar-chart">
-
-           </canvas>
-       </div>
-     </div>
-
-     <div class="card card-full">
-       <label>List of projects</label>    
-       <div>
-         <table>
-           <tr class="first-row">
-             <th style="border-top-left-radius: 6px;" class="first">#ID</th>
-             <th>Name</th>
-             <th>@Email</th>
-             <th style="border-top-right-radius: 6px;" class="more more-bottom-line">More</th>
-           </tr>
-           <tr>
-             <td class="first">24</td>
-             <td>Omar Al-Qahtani</td>
-             <td>437101560@gmail.com</td>
+             <td class="first"><img class="img" src="http://nzlplastering.co.nz/wp-content/uploads/2017/06/David-Page.jpg" alt=""></td>
+             <td>Kathrien</td>
+             <td>Designer</td>
              <td class="more" ><i class="fas fa-info-circle"></i></td>
            </tr>
            <tr>
-             <td class="first">32</td>
-             <td>Anas Al-Qahtani</td>
-             <td>437101560@gmail.com</td>
-             <td class="more"><i class="fas fa-info-circle"></i></td>
+             <td class="first"><img class="img" src="http://nzlplastering.co.nz/wp-content/uploads/2017/06/David-Page.jpg" alt=""></td>
+             <td>Nasserh</td>
+             <td>Software enginner</td>
+             <td class="more" ><i class="fas fa-info-circle"></i></td>
            </tr>
            <tr>
-             <td class="first">2</td>
-             <td>Abdulelah Al-Qahtani</td>
-             <td>437101560@gmail.com</td>
-             <td class="more"><i class="fas fa-info-circle"></i></td>
+             <td class="first"><img class="img" src="http://nzlplastering.co.nz/wp-content/uploads/2017/06/David-Page.jpg" alt=""></td>
+             <td>Kathrien</td>
+             <td>Designer</td>
+             <td class="more" ><i class="fas fa-info-circle"></i></td>
+           </tr><tr>
+             <td class="first"><img class="img" src="http://nzlplastering.co.nz/wp-content/uploads/2017/06/David-Page.jpg" alt=""></td>
+             <td>Nasserh</td>
+             <td>Software enginner</td>
+             <td class="more" ><i class="fas fa-info-circle"></i></td>
            </tr>
+           <tr>
+             <td class="first"><img class="img" src="http://nzlplastering.co.nz/wp-content/uploads/2017/06/David-Page.jpg" alt=""></td>
+             <td>Kathrien</td>
+             <td>Designer</td>
+             <td class="more" ><i class="fas fa-info-circle"></i></td>
+           </tr><tr>
+             <td class="first"><img class="img" src="http://nzlplastering.co.nz/wp-content/uploads/2017/06/David-Page.jpg" alt=""></td>
+             <td>Nasserh</td>
+             <td>Software enginner</td>
+             <td class="more" ><i class="fas fa-info-circle"></i></td>
+           </tr>
+           <tr>
+             <td class="first"><img class="img" src="http://nzlplastering.co.nz/wp-content/uploads/2017/06/David-Page.jpg" alt=""></td>
+             <td>Kathrien</td>
+             <td>Designer</td>
+             <td class="more" ><i class="fas fa-info-circle"></i></td>
+           </tr><tr>
+             <td class="first"><img class="img" src="http://nzlplastering.co.nz/wp-content/uploads/2017/06/David-Page.jpg" alt=""></td>
+             <td>Nasserh</td>
+             <td>Software enginner</td>
+             <td class="more" ><i class="fas fa-info-circle"></i></td>
+           </tr>
+           <tr>
+             <td class="first"><img class="img" src="http://nzlplastering.co.nz/wp-content/uploads/2017/06/David-Page.jpg" alt=""></td>
+             <td>Kathrien</td>
+             <td>Designer</td>
+             <td class="more" ><i class="fas fa-info-circle"></i></td>
+           </tr><tr>
+             <td class="first"><img class="img" src="http://nzlplastering.co.nz/wp-content/uploads/2017/06/David-Page.jpg" alt=""></td>
+             <td>Nasserh</td>
+             <td>Software enginner</td>
+             <td class="more" ><i class="fas fa-info-circle"></i></td>
+           </tr>
+           <tr>
+             <td class="first"><img class="img" src="http://nzlplastering.co.nz/wp-content/uploads/2017/06/David-Page.jpg" alt=""></td>
+             <td>Kathrien</td>
+             <td>Designer</td>
+             <td class="more" ><i class="fas fa-info-circle"></i></td>
+           </tr><tr>
+             <td class="first"><img class="img" src="http://nzlplastering.co.nz/wp-content/uploads/2017/06/David-Page.jpg" alt=""></td>
+             <td>Nasserh</td>
+             <td>Software enginner</td>
+             <td class="more" ><i class="fas fa-info-circle"></i></td>
+           </tr>
+           <tr>
+             <td class="first"><img class="img" src="http://nzlplastering.co.nz/wp-content/uploads/2017/06/David-Page.jpg" alt=""></td>
+             <td>Kathrien</td>
+             <td>Designer</td>
+             <td class="more" ><i class="fas fa-info-circle"></i></td>
+           </tr>
+           
          </table>
-       </div>
-     </div>
-
-     
-    
+       
+</div>
+</div>
       
   
      
