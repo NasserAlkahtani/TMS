@@ -42,11 +42,14 @@
     font-size: 250%;
 }
 
-.card div div {
+.card div .single-info {
     width: auto;
     height: auto;
     font-size: 100%;
 }
+
+
+
 
 .card div table {
     width: 100%;
@@ -78,6 +81,12 @@
 .card div table tr .more {
     width: 10%;
     text-align: center;
+}
+
+.card div table tr .img {
+    position: relative;
+    width: 80%;
+    border-radius: 50%;
 }
 
 .card div table tr td {

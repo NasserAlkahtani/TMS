@@ -43,7 +43,7 @@
        <label>Number of employees</label>
        <div >
          <i class="fas fa-users"></i>
-         <div class="countup">
+         <div class="countup single-info">
                 4
          </div>
        </div>
@@ -53,7 +53,7 @@
        <label>Number of projects</label>
        <div >
        <i class="fas fa-project-diagram"></i>
-         <div class="countup">
+         <div class="countup single-info">
                   5
          </div>
        </div>
@@ -122,7 +122,7 @@
        <label>Number of employees</label>
        <div >
          <i class="fas fa-users"></i>
-         <div class="countup">
+         <div class="countup single-info">
                 4
          </div>
        </div>
@@ -132,7 +132,7 @@
        <label>Number of projects</label>
        <div >
        <i class="fas fa-project-diagram"></i>
-         <div class="countup">
+         <div class="countup single-info">
                   5
          </div>
        </div>
