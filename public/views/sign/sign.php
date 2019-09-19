@@ -1,12 +1,9 @@
 <!doctype html>
 <html lang="en">
   <head>
-      <?php
-           include('links.php'); 
-      ?>
-
-    <link href="../assets/css/notification.css" rel="stylesheet">
-    <link rel="stylesheet" href="../assets/css/sign.css" >
+  
+    <link href="../../assets/css/notification.css" rel="stylesheet">
+    <link rel="stylesheet" href="sign.css" >
     <title>Sign up</title>
   </head>
   <body>
@@ -94,7 +91,8 @@
 
 
     </div>
-    <script src="../assets/js/notification.js"></script>
-    <script src="../assets/js/sign.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="../../assets/js/notification.js"></script>
+    <script src="sign.js"></script>
   </body>
 </html>
