@@ -9,7 +9,7 @@
 
 
     <?php
-           include('../links.php'); 
+           include('links.php'); 
     ?>
 
   
@@ -28,9 +28,9 @@ if(!($_SESSION['logedin'] == "true" && isset($_SESSION['cid']))){
 
 
 <?php
-include('../shared/navbar.php');
+include('../../layout/navbar/navbar.php');
 
-include('../shared/sidebar.php');
+include('../../layout/sidebar/sidebar.php');
 
 ?>
 
@@ -194,12 +194,18 @@ include('../shared/sidebar.php');
              <td class="more" ><i class="fas fa-info-circle"></i></td>
            </tr>
            <tr>
-             <td class="first"><img class="img" src="http://nzlplastering.co.nz/wp-content/uploads/2017/06/David-Page.jpg" alt=""></td>
+             <td class="first"><img class="img" src="https://upload.wikimedia.org/wikipedia/commons/1/18/Katheryn_Winnick_%28Good_Day_New_York%29.png" alt=""></td>
              <td>Kathrien</td>
              <td>Designer</td>
              <td class="more" ><i class="fas fa-info-circle"></i></td>
            </tr>
            
+           <tr>
+             <td class="first"><img class="img" src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Lionel_Messi_20180626.jpg" alt=""></td>
+             <td>Kathrien</td>
+             <td>Designer</td>
+             <td class="more" ><i class="fas fa-info-circle"></i></td>
+           </tr>
          </table>
        
       </div>
@@ -240,7 +246,6 @@ include('../shared/sidebar.php');
 
 
 
-<script src="../../assets/js/jquery.easypiechart.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 <script src="../../assets/js/charts.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>

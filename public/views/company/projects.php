@@ -4,46 +4,183 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Projects</title>
+    <title>Dashboard</title>
     <link href="../../assets/css/index.css" rel="stylesheet">
 
 
     <?php
-           include('../links.php'); 
-     ?>
+           include('links.php'); 
+    ?>
+
+  
+  
 </head>
 <body>
-    
 <?php
 
- session_start();
+session_start();
 
- if(!($_SESSION['logedin'] == "true" && isset($_SESSION['cid']))){
-    header('location: sign.php');
+if(!($_SESSION['logedin'] == "true" && isset($_SESSION['cid']))){
+    header('location: ../sign.php');
 
- }
- ?>
-
-
- <?php
- include('./../shared/navbar.php');
-
- include('./../shared/sidebar.php');
-
- ?>
+}
+?>
 
 
+<?php
+include('../../layout/navbar/navbar.php');
+
+include('../../layout/sidebar/sidebar.php');
+
+?>
 
 
 <div class="body"><!-- start body -->
 
-<div class="card card-full">
+   
+<?php
+
+
+  if(isset($_SESSION['msg']) && isset($_SESSION['msg-type']) ){
+    if($_SESSION['msg-type'] == 'danger'){
+      echo 
+      
+      '<div id="notification" class="notification notification-danger">
+      <label class="notification-label">'.$_SESSION['msg'].'</label>
+      <div id="notification-x" class="notification-x"><img src="../assets/img/x-icon.png"></div>
+     </div>';
+     }else if($_SESSION['msg-type'] == 'normal'){
+      echo 
+
+      '<div id="notification" class="notification notification-normal">
+      <label class="notification-label">'.$_SESSION['msg'].'</label>
+      <div id="notification-x" class="notification-x"><img src="../assets/img/x-icon.png"></div>
+     </div>'
+     
+     ;
+     }
+    unset($_SESSION['msg']);
+    unset($_SESSION['msg-type']);
+  }
+
+?>
+     
+     <div class="card card-single">
+       <label>Number of employees</label>
+       <div >
+         <i class="fas fa-users"></i>
+         <div class="countup single-info">
+                3,539
+         </div>
+       </div>
+     </div>
+
+     <div class="card card-single">
+       <label>Number of projects</label>
+       <div >
+       <i class="fas fa-project-diagram"></i>
+         <div class="countup single-info">
+                  5
+         </div>
+       </div>
+     </div>
+
+     <div class="card card-single">
+       <label>Tasks status</label>
+       <div class="card-single-chart">
+         <canvas id="tasks-done-chart">
+   
+         </canvas>
+       </div>
+     </div>
+
+     <div class="card card-double">
+      <label>Bar chart</label>
+        <div>
+           <canvas id="line-chart">
+
+           </canvas>
+       </div>
+     </div>
+
+     <div class="card card-single-double">
+      <label>Sucess precentage</label>
+        <div>
+           <canvas id="bar-chart">
+
+           </canvas>
+       </div>
+     </div>
+
+     <div class="card card-full">
        <label>List of projects</label>    
        <div>
-           <input class="search-list-input" type="text" placeholder="search">
+         <table>
+           <tr class="first-row">
+             <th style="border-top-left-radius: 6px;" class="first">#ID</th>
+             <th>Name</th>
+             <th>Username</th>
+             <th style="border-top-right-radius: 6px;" class="more">More</th>
+           </tr>
+           <tr>
+             <td class="first">24</td>
+             <td>Omar Al-Qahtani</td>
+             <td>437101560@gmail.com</td>
+             <td class="more" ><i class="fas fa-info-circle"></i></td>
+           </tr>
+           <tr>
+             <td class="first">32</td>
+             <td>Anas Al-Qahtani</td>
+             <td>437101560@gmail.com</td>
+             <td class="more"><i class="fas fa-info-circle"></i></td>
+           </tr>
+           <tr>
+             <td class="first">2</td>
+             <td>Abdulelah Al-Qahtani</td>
+             <td>437101560@gmail.com</td>
+             <td class="more"><i class="fas fa-info-circle"></i></td>
+           </tr>
+         </table>
        </div>
+     </div>
+
+     <div class="card card-single">
+       <label>Number of employees</label>
+       <div >
+         <i class="fas fa-users"></i>
+         <div class="countup single-info">
+                4
+         </div>
+       </div>
+     </div>
+
+     <div class="card card-single">
+       <label>Number of projects</label>
+       <div >
+       <i class="fas fa-project-diagram"></i>
+         <div class="countup single-info">
+                  5
+         </div>
+       </div>
+     </div>
+
+     <div class="card card-single">
+       <label>Tasks status</label>
+       <div class="card-single-chart">
+         <canvas id="tasks-done-chart">
+   
+         </canvas>
+       </div>
+     </div>
+
+
+    
+
+     
+     <div class="card card-full">
+       <label>List of projects</label>    
        <div>
-<table>
+       <table>
            <tr class="first-row">
              <th style="border-top-left-radius: 6px;" class="first"></th>
              <th>Name</th>
@@ -62,78 +199,12 @@
              <td>Designer</td>
              <td class="more" ><i class="fas fa-info-circle"></i></td>
            </tr>
-           <tr>
-             <td class="first"><img class="img" src="http://nzlplastering.co.nz/wp-content/uploads/2017/06/David-Page.jpg" alt=""></td>
-             <td>Nasserh</td>
-             <td>Software enginner</td>
-             <td class="more" ><i class="fas fa-info-circle"></i></td>
-           </tr>
-           <tr>
-             <td class="first"><img class="img" src="http://nzlplastering.co.nz/wp-content/uploads/2017/06/David-Page.jpg" alt=""></td>
-             <td>Kathrien</td>
-             <td>Designer</td>
-             <td class="more" ><i class="fas fa-info-circle"></i></td>
-           </tr><tr>
-             <td class="first"><img class="img" src="http://nzlplastering.co.nz/wp-content/uploads/2017/06/David-Page.jpg" alt=""></td>
-             <td>Nasserh</td>
-             <td>Software enginner</td>
-             <td class="more" ><i class="fas fa-info-circle"></i></td>
-           </tr>
-           <tr>
-             <td class="first"><img class="img" src="http://nzlplastering.co.nz/wp-content/uploads/2017/06/David-Page.jpg" alt=""></td>
-             <td>Kathrien</td>
-             <td>Designer</td>
-             <td class="more" ><i class="fas fa-info-circle"></i></td>
-           </tr><tr>
-             <td class="first"><img class="img" src="http://nzlplastering.co.nz/wp-content/uploads/2017/06/David-Page.jpg" alt=""></td>
-             <td>Nasserh</td>
-             <td>Software enginner</td>
-             <td class="more" ><i class="fas fa-info-circle"></i></td>
-           </tr>
-           <tr>
-             <td class="first"><img class="img" src="http://nzlplastering.co.nz/wp-content/uploads/2017/06/David-Page.jpg" alt=""></td>
-             <td>Kathrien</td>
-             <td>Designer</td>
-             <td class="more" ><i class="fas fa-info-circle"></i></td>
-           </tr><tr>
-             <td class="first"><img class="img" src="http://nzlplastering.co.nz/wp-content/uploads/2017/06/David-Page.jpg" alt=""></td>
-             <td>Nasserh</td>
-             <td>Software enginner</td>
-             <td class="more" ><i class="fas fa-info-circle"></i></td>
-           </tr>
-           <tr>
-             <td class="first"><img class="img" src="http://nzlplastering.co.nz/wp-content/uploads/2017/06/David-Page.jpg" alt=""></td>
-             <td>Kathrien</td>
-             <td>Designer</td>
-             <td class="more" ><i class="fas fa-info-circle"></i></td>
-           </tr><tr>
-             <td class="first"><img class="img" src="http://nzlplastering.co.nz/wp-content/uploads/2017/06/David-Page.jpg" alt=""></td>
-             <td>Nasserh</td>
-             <td>Software enginner</td>
-             <td class="more" ><i class="fas fa-info-circle"></i></td>
-           </tr>
-           <tr>
-             <td class="first"><img class="img" src="http://nzlplastering.co.nz/wp-content/uploads/2017/06/David-Page.jpg" alt=""></td>
-             <td>Kathrien</td>
-             <td>Designer</td>
-             <td class="more" ><i class="fas fa-info-circle"></i></td>
-           </tr><tr>
-             <td class="first"><img class="img" src="http://nzlplastering.co.nz/wp-content/uploads/2017/06/David-Page.jpg" alt=""></td>
-             <td>Nasserh</td>
-             <td>Software enginner</td>
-             <td class="more" ><i class="fas fa-info-circle"></i></td>
-           </tr>
-           <tr>
-             <td class="first"><img class="img" src="http://nzlplastering.co.nz/wp-content/uploads/2017/06/David-Page.jpg" alt=""></td>
-             <td>Kathrien</td>
-             <td>Designer</td>
-             <td class="more" ><i class="fas fa-info-circle"></i></td>
-           </tr>
            
          </table>
        
-</div>
-</div>
+      </div>
+     </div>
+    
       
   
      
@@ -163,20 +234,20 @@
 </div> <!-- end body -->
 
 
-</body>
-<script src="../../assets/js/jquery.easypiechart.js"></script>
-<script>
-    $(function() {
-        $('.chart').easyPieChart({
-          "barColor":"#45a789",
-          "trackColor":"#19222f",
-          "scaleColor":"#45a789"
-        });
-    });
-</script>
+
+     
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+<script src="../../assets/js/charts.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script> 
 <script>
 $(document).ready(function() {
     $('#projects-menu-item').addClass('active')
 });
 </script>
+</body>
 </html>

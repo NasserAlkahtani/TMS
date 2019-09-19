@@ -95,7 +95,8 @@
 
 .card div table tr .img {
     position: relative;
-    width: 80%;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
 }
 

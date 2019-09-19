@@ -8,6 +8,8 @@
     -moz-box-shadow: 0px 0px 21px -7px rgba(0, 0, 0, 1);
     box-shadow: 0px 0px 21px -7px rgba(0, 0, 0, 1);
     z-index: 7;
+    min-width: 1115px;
+    min-height: 60px;
 }
 
 .off-icon {
@@ -29,7 +31,7 @@
 }
 
 .off-icon-dropdown-div {
-    position: absolute;
+    position: fixed;
     width: 190px;
     height: auto;
     top: 55px;
@@ -104,7 +106,7 @@
 
 .off-icon-dropdown-div-cover {
     background-color: rgba(0, 0, 0, 0.233);
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 100%;
     z-index: 599;

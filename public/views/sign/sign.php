@@ -49,7 +49,7 @@
 
 
 
-     <form id="signup-form" action="../module/sign/signup.php" method="post">
+     <form id="signup-form" action="../../../private/backend/sign/signin.php" method="post">
               <div class="field-div">
                    <label>E-Mail</label>
                    <input placeholder="email" type="email" name="email" required >
@@ -75,7 +75,7 @@
     
 
 
-     <form id="signin-form" action="../module/sign/signin.php" method="post">
+     <form id="signin-form" action="../../../private/backend/sign/signin.php" method="post">
               <div class="field-div">
                    <label>E-Mail</label>
                    <input name="email" placeholder="email" type="text" required>

@@ -1,5 +1,10 @@
-<div id="off-icon-dropdown-div-cover"></div>
+<?php
+echo "<style>";
+require_once __DIR__ . '/navbar.css';
+echo "</style>";
+?>
 
+<div id="off-icon-dropdown-div-cover"></div>
 <div class="navbar-main-div">
 
 
@@ -27,8 +32,12 @@
        <div class="off-icon-dropdown-div-footer"></div>
 
         <div class="off-icon-dropdown-div-sign">
-        <a href="../../module/sign/signout.php"><button>Add account</button></a>
-        <a href="../../module/sign/signout.php"><button>Sign out</button></a>
+        <a href="../../../private/backend/sign/signout.php"><button>Sign out</button></a>
        </div>
-        
      </div>
+
+     <?php
+        echo "<script>";
+        require_once __DIR__ . '/navbar-dropdown.js';
+        echo "</script>";
+      ?>

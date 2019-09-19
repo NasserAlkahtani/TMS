@@ -6,6 +6,6 @@ session_start();
 $_SESSION['logedin'] = NULL;
 $_SESSION['cid'] = NULL;
 
-header("location: ../../pages/sign.php");
+header("location: ../../../public/views/sign/sign.php");
 
 ?>

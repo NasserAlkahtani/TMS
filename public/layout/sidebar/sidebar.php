@@ -1,10 +1,16 @@
+<?php
+echo "<style>";
+require_once __DIR__ . '/sidebar.css';
+echo "</style>";
+?>
+
 <div class="main-sidebar">
     
 
 <div class="company-name-logo">
    <a href="account.php">
 <?php
-   include("../../module/database/database.php"); 
+    require_once __DIR__ . '/../../../private/backend/database/connection.php';
    $sql = 'SELECT * FROM `companies` WHERE id='.$_SESSION['cid'];
    $res = mysqli_query($conn,$sql);
  
