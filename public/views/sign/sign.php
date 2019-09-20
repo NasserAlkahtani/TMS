@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
   
-    <link href="../../assets/css/notification.css" rel="stylesheet">
+    <link href="../../assets/css/shared/notification.css" rel="stylesheet">
     <link rel="stylesheet" href="sign.css" >
     <title>Sign up</title>
   </head>
@@ -18,14 +18,14 @@
       
       '<div id="notification" class="notification notification-danger">
       <label class="notification-label">'.$_SESSION['msg'].'</label>
-      <div id="notification-x" class="notification-x"><img src="../assets/img/x-icon.png"></div>
+      <div id="notification-x" class="notification-x"><img src="../../assets/img/x-icon.png"></div>
      </div>';
      }else if($_SESSION['msg-type'] == 'normal'){
       echo 
 
       '<div id="notification" class="notification notification-normal">
       <label class="notification-label">'.$_SESSION['msg'].'</label>
-      <div id="notification-x" class="notification-x"><img src="../assets/img/x-icon.png"></div>
+      <div id="notification-x" class="notification-x"><img src="../../assets/img/x-icon.png"></div>
      </div>'
      
      ;

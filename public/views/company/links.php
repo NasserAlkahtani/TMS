@@ -4,8 +4,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- CSS -->
     <link href="../../assets/css/shared/notification.css" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="../../assets/css/sidebar.css">
-    <link rel="stylesheet" href="../../assets/css/navbar.css"> -->
     <link href="../../lib/fontawesome/css/all.css" rel="stylesheet"> 
     <link href="../../assets/css/shared/all.css" rel="stylesheet">
     <link href="../../assets/css/shared/card.css" rel="stylesheet">
