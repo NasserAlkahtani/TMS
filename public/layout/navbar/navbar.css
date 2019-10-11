@@ -21,13 +21,12 @@
     margin-right: 20px;
     transition: 0.3s;
     cursor: pointer;
-    z-index: 500;
+    z-index: 600;
 }
 
 .off-icon:hover {
     color: #204137;
     z-index: 500;
-
 }
 
 .off-icon-dropdown-div {

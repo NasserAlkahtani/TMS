@@ -5,25 +5,26 @@ echo "</style>";
 ?>
 
 <div id="off-icon-dropdown-div-cover"></div>
+
 <div class="navbar-main-div">
 
 
- <form action="" method="get">
-     <div class="navbar-search-div">
-         <input name="search" type="text" placeholder="Search">
-         <div>
-            <button><i class="fas fa-search search-icon"></i></button>
-         </div>         
-     </div>
-</form>
-<div id="off-icon-dropdown-div-cover"></div>
+        <form action="" method="get">
+            <div class="navbar-search-div">
+                <input name="search" type="text" placeholder="Search">
+                <div>
+                    <button><i class="fas fa-search search-icon"></i></button>
+                </div>         
+            </div>
+        </form>
 
 
 
-     <a id="dropdown-button"><i class="fas fa-power-off off-icon"></i></a>
+        <a id="dropdown-button"><i class="fas fa-power-off off-icon"></i></a>
+
      
-
 </div>
+
 
 
 <div id="off-icon-dropdown-div" class="off-icon-dropdown-div">
@@ -34,6 +35,8 @@ echo "</style>";
         <div class="off-icon-dropdown-div-sign">
         <a href="../../../private/backend/sign/signout.php"><button>Sign out</button></a>
        </div>
+
+
      </div>
 
      <?php
